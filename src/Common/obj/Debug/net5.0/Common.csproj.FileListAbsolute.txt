@@ -1,0 +1,24 @@
+E:\Projects\Real Projects\NikData\PortalCore\src\Common\bin\Debug\net5.0\PortalCore.Common.deps.json
+E:\Projects\Real Projects\NikData\PortalCore\src\Common\bin\Debug\net5.0\PortalCore.Common.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\Common\bin\Debug\net5.0\PortalCore.Common.pdb
+E:\Projects\Real Projects\NikData\PortalCore\src\Common\obj\Debug\net5.0\Common.csproj.AssemblyReference.cache
+E:\Projects\Real Projects\NikData\PortalCore\src\Common\obj\Debug\net5.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\Real Projects\NikData\PortalCore\src\Common\obj\Debug\net5.0\Common.AssemblyInfoInputs.cache
+E:\Projects\Real Projects\NikData\PortalCore\src\Common\obj\Debug\net5.0\Common.AssemblyInfo.cs
+E:\Projects\Real Projects\NikData\PortalCore\src\Common\obj\Debug\net5.0\Common.csproj.CoreCompileInputs.cache
+E:\Projects\Real Projects\NikData\PortalCore\src\Common\obj\Debug\net5.0\PortalCore.Common.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\Common\obj\Debug\net5.0\refint\PortalCore.Common.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\Common\obj\Debug\net5.0\PortalCore.Common.pdb
+E:\Projects\Real Projects\NikData\PortalCore\src\Common\obj\Debug\net5.0\ref\PortalCore.Common.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\Common\bin\Debug\net5.0\PortalCore.Common.deps.json
+D:\Projects\Real Projects\Web API\PortalCore\src\Common\bin\Debug\net5.0\PortalCore.Common.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\Common\bin\Debug\net5.0\PortalCore.Common.pdb
+D:\Projects\Real Projects\Web API\PortalCore\src\Common\obj\Debug\net5.0\Common.csproj.AssemblyReference.cache
+D:\Projects\Real Projects\Web API\PortalCore\src\Common\obj\Debug\net5.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Real Projects\Web API\PortalCore\src\Common\obj\Debug\net5.0\Common.AssemblyInfoInputs.cache
+D:\Projects\Real Projects\Web API\PortalCore\src\Common\obj\Debug\net5.0\Common.AssemblyInfo.cs
+D:\Projects\Real Projects\Web API\PortalCore\src\Common\obj\Debug\net5.0\Common.csproj.CoreCompileInputs.cache
+D:\Projects\Real Projects\Web API\PortalCore\src\Common\obj\Debug\net5.0\PortalCore.Common.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\Common\obj\Debug\net5.0\refint\PortalCore.Common.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\Common\obj\Debug\net5.0\PortalCore.Common.pdb
+D:\Projects\Real Projects\Web API\PortalCore\src\Common\obj\Debug\net5.0\ref\PortalCore.Common.dll

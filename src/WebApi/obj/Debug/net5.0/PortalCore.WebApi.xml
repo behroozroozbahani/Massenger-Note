@@ -1,0 +1,279 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PortalCore.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:PortalCore.WebApi.Controllers.AccountController.Register(PortalCore.Application.Account.Commands.RegisterAccount.RegisterAccountCommand)">
+            <summary>
+            ثبت نام
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PortalCore.WebApi.Controllers.AccountController.Login(PortalCore.Application.Account.Commands.LoginAccount.LoginAccountCommand)">
+            <summary>
+            ورود
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PortalCore.WebApi.Controllers.AccountController.RefreshToken(PortalCore.Application.Account.Commands.RefreshToken.RefreshTokenCommand)">
+            <summary>
+            تازه سازی توکن
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PortalCore.WebApi.Controllers.MessengerGroupMessageController.GetAllGroupMessagesProtected">
+            <summary>
+            نمایش همه پیام های گروه ها برای ادمین
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PortalCore.WebApi.Controllers.MessengerGroupMessageController.GetGroupMessagesByGroupIdProtected(System.Guid)">
+            <summary>
+            نمایش پیام های گروه خاصی با آی دی برای ادمین
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PortalCore.WebApi.Controllers.MessengerGroupMessageController.GetAllGroupMessages">
+            <summary>
+            نمایش تمامی گروه های عضو برای کاربر لاگین شده
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PortalCore.WebApi.Controllers.MessengerGroupMessageController.GetGroupMessagesByGroupId(System.Guid)">
+            <summary>
+            نمایش تمامی پیام های گروه خاص برای کاربر لاگین شده
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PortalCore.WebApi.Controllers.MessengerGroupMessageController.CreateGroupMessage(PortalCore.Application.MessengerGroupMessages.Commands.CreateMessengerGroupMessage.CreateMessengerGroupMessageCommand)">
+            <summary>
+            ایجاد پیام برای کاربر لاگین کرده
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PortalCore.WebApi.Controllers.MessengerGroupMessageController.DeleteGroupMessageById(PortalCore.Application.MessengerGroupMessages.Commands.DeleteMessengerGroupMessageById.DeleteMessengerGroupMessageByIdCommand)">
+            <summary>
+            حذف یک  پیام گروه با آی دی برای کاربر لاگین کرده
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PortalCore.WebApi.Controllers.MessengerGroupMessageController.DeleteGroupMessages(PortalCore.Application.MessengerGroupMessages.Commands.DeleteMessengerGroupMessages.DeleteMessengerGroupMessagesCommand)">
+            <summary>
+            حذف پیام های گروه برای کاربر لاگین کرده 
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PortalCore.WebApi.Controllers.MessengerGroupsController.CreateGroup(PortalCore.Application.MessengerGroups.Commands.CreateMessengerGroup.CreateMessengerGroupCommand)">
+            <summary>
+            ایجاد یک گروه برای کاربر لاگین کرده
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PortalCore.WebApi.Controllers.MessengerGroupsController.CreateGroupNewMember(PortalCore.Application.MessengerGroups.Commands.CreateMessengerGroupNewMember.CreateMessengerGroupNewMemberCommand)">
+            <summary>
+            اضافه کردن یک یا چند کاربر جدید برای کاربر لاگین کرده
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PortalCore.WebApi.Controllers.MessengerGroupsController.UpdateGroup(PortalCore.Application.MessengerGroups.Commands.UpdateMessengerGroup.UpdateMessengerGroupCommand)">
+            <summary>
+            ویرایش گروه برای ایجاد کننده گروه
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PortalCore.WebApi.Controllers.MessengerGroupsController.DeleteGroupById(System.Guid)">
+            <summary>
+            حذف گروه با آی دی برای ایجاد کننده گروه
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PortalCore.WebApi.Controllers.MessengerGroupsController.DeleteGroupMemberById(PortalCore.Application.MessengerGroups.Commands.DeleteMessengerGroupMemberById.DeleteMessengerGroupMemberByIdCommand)">
+            <summary>
+            حذف یک عضو با آی دی برای کاربر لاگین کرده
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PortalCore.WebApi.Controllers.MessengerGroupsController.DeleteGroupMembers(PortalCore.Application.MessengerGroups.Commands.DeleteMessengerGroupMembers.DeleteMessengerGroupMembersCommand)">
+            <summary>
+            حذف چند عضو با آی دی برای کاربر لاگین کردهد
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PortalCore.WebApi.Controllers.MessengerMessageFilesController.GetOriginalPrivateMessageFileById(System.Guid)">
+            <summary>
+            نمایش فایل اصلی پیام خصوصی با آی دی
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PortalCore.WebApi.Controllers.MessengerMessageFilesController.GetNailPrivateMessageFileById(System.Guid)">
+            <summary>
+            نمایش فایل تغییر یافته پیام خصوصی با آی دی
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PortalCore.WebApi.Controllers.MessengerMessageFilesController.GetOriginalGroupMessageFileById(System.Guid)">
+            <summary>
+            نمایش فایل اصلی پیام گروه با آی دی
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PortalCore.WebApi.Controllers.MessengerMessageFilesController.GetNailGroupMessageFileById(System.Guid)">
+            <summary>
+            نمایش فایل تغییر یافته پیام گروه با آی دی
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PortalCore.WebApi.Controllers.MessengerPrivateMessageController.GetAllPrivateMessagesProtected">
+            <summary>
+            نمایش همه پیامهای شخصی برای ادمین
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PortalCore.WebApi.Controllers.MessengerPrivateMessageController.GetPrivateMessageProtectedBySenderRecipientId(System.Guid)">
+            <summary>
+            نمایش یک پیام با آی دی برای ادمین
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PortalCore.WebApi.Controllers.MessengerPrivateMessageController.GetAllPrivateMessages">
+            <summary>
+            نمایش همه پیامهای شخصی برای کاربر لاگین کرده
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PortalCore.WebApi.Controllers.MessengerPrivateMessageController.GetPrivateMessageBySenderRecipientId(System.Guid)">
+            <summary>
+            نمایش یک پیام برای کاربر لاگین کرده
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PortalCore.WebApi.Controllers.MessengerPrivateMessageController.CreatePrivateMessage(PortalCore.Application.MessengerPrivateMessages.Commands.CreateMessengerPrivateMessage.CreateMessengerPrivateMessageCommand)">
+            <summary>
+            ایجاد یک پیام شخصی برای کاربر لاگین کرده
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PortalCore.WebApi.Controllers.MessengerPrivateMessageController.DeletePrivateMessageById(System.Guid)">
+            <summary>
+            حذف یک پیام شخصی با آی دی برای کاربر لاگین کرده
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PortalCore.WebApi.Controllers.MessengerPrivateMessageController.DeletePrivateMessageProtectedById(System.Guid)">
+            <summary>
+            حذف یک پیام شخصی با آی دی برای ادمین
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PortalCore.WebApi.Controllers.NotesController.GetAllNotesProtected">
+            <summary>
+            GetAllNotesProtected
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PortalCore.WebApi.Controllers.NotesController.GetAllNotes">
+            <summary>
+            GetAllNotes
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PortalCore.WebApi.Controllers.NotesController.GetNoteByIdProtected(System.Guid)">
+            <summary>
+            GetNoteByIdProtected
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PortalCore.WebApi.Controllers.NotesController.GetNoteById(System.Guid)">
+            <summary>
+            GetNoteById
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PortalCore.WebApi.Controllers.NotesController.CreateNoteProtected(PortalCore.Application.Notes.Commands.CreateNoteAdmin.CreateNoteAdminCommand)">
+            <summary>
+            CreateNoteProtected
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PortalCore.WebApi.Controllers.NotesController.CreateNote(PortalCore.Application.Notes.Commands.CreateNote.CreateNoteCommand)">
+            <summary>
+            CreateNote
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PortalCore.WebApi.Controllers.NotesController.UpdateNoteProtected(PortalCore.Application.Notes.Commands.UpdateNoteAdmin.UpdateNoteAdminCommand)">
+            <summary>
+            UpdateNoteProtected
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PortalCore.WebApi.Controllers.NotesController.UpdateNote(PortalCore.Application.Notes.Commands.UpdateNote.UpdateNoteCommand)">
+            <summary>
+            UpdateNote
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PortalCore.WebApi.Controllers.NotesController.DeleteNoteByIdProtected(System.Guid)">
+            <summary>
+            DeleteNoteByIdProtected
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PortalCore.WebApi.Controllers.NotesController.DeleteNoteById(System.Guid)">
+            <summary>
+            DeleteNoteById
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PortalCore.WebApi.Controllers.NotesController.DeleteNoteFileByIdProtected(System.Guid)">
+            <summary>
+            DeleteNoteFileByIdProtected
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PortalCore.WebApi.Controllers.NotesController.DeleteNoteFileById(System.Guid)">
+            <summary>
+            DeleteNoteFileById
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PortalCore.WebApi.Controllers.UsersController.GetAllUsers">
+            <summary>
+            GetAllUsers
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:PortalCore.WebApi.Filters.ClientRoleClaim.ClaimType">
+            <summary>
+            Gets or sets the claim type for this claim.
+            </summary>
+        </member>
+        <member name="P:PortalCore.WebApi.Filters.ClientRoleClaim.ClaimValue">
+            <summary>
+            Gets or sets the claim value for this claim.
+            </summary>
+        </member>
+    </members>
+</doc>

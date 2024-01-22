@@ -1,0 +1,40 @@
+E:\Projects\Real Projects\NikData\PortalCore\src\Infrastructure\bin\Debug\net5.0\PortalCore.Infrastructure.deps.json
+E:\Projects\Real Projects\NikData\PortalCore\src\Infrastructure\bin\Debug\net5.0\PortalCore.Infrastructure.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\Infrastructure\bin\Debug\net5.0\PortalCore.Infrastructure.pdb
+E:\Projects\Real Projects\NikData\PortalCore\src\Infrastructure\bin\Debug\net5.0\PortalCore.Application.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\Infrastructure\bin\Debug\net5.0\PortalCore.Common.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\Infrastructure\bin\Debug\net5.0\PortalCore.Domain.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\Infrastructure\bin\Debug\net5.0\PortalCore.Application.pdb
+E:\Projects\Real Projects\NikData\PortalCore\src\Infrastructure\bin\Debug\net5.0\PortalCore.Application.xml
+E:\Projects\Real Projects\NikData\PortalCore\src\Infrastructure\bin\Debug\net5.0\PortalCore.Common.pdb
+E:\Projects\Real Projects\NikData\PortalCore\src\Infrastructure\bin\Debug\net5.0\PortalCore.Domain.pdb
+E:\Projects\Real Projects\NikData\PortalCore\src\Infrastructure\obj\Debug\net5.0\Infrastructure.csproj.AssemblyReference.cache
+E:\Projects\Real Projects\NikData\PortalCore\src\Infrastructure\obj\Debug\net5.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\Real Projects\NikData\PortalCore\src\Infrastructure\obj\Debug\net5.0\Infrastructure.AssemblyInfoInputs.cache
+E:\Projects\Real Projects\NikData\PortalCore\src\Infrastructure\obj\Debug\net5.0\Infrastructure.AssemblyInfo.cs
+E:\Projects\Real Projects\NikData\PortalCore\src\Infrastructure\obj\Debug\net5.0\Infrastructure.csproj.CoreCompileInputs.cache
+E:\Projects\Real Projects\NikData\PortalCore\src\Infrastructure\obj\Debug\net5.0\Infrastructure.csproj.CopyComplete
+E:\Projects\Real Projects\NikData\PortalCore\src\Infrastructure\obj\Debug\net5.0\PortalCore.Infrastructure.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\Infrastructure\obj\Debug\net5.0\refint\PortalCore.Infrastructure.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\Infrastructure\obj\Debug\net5.0\PortalCore.Infrastructure.pdb
+E:\Projects\Real Projects\NikData\PortalCore\src\Infrastructure\obj\Debug\net5.0\ref\PortalCore.Infrastructure.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\Infrastructure\bin\Debug\net5.0\PortalCore.Infrastructure.deps.json
+D:\Projects\Real Projects\Web API\PortalCore\src\Infrastructure\bin\Debug\net5.0\PortalCore.Infrastructure.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\Infrastructure\bin\Debug\net5.0\PortalCore.Infrastructure.pdb
+D:\Projects\Real Projects\Web API\PortalCore\src\Infrastructure\bin\Debug\net5.0\PortalCore.Application.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\Infrastructure\bin\Debug\net5.0\PortalCore.Common.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\Infrastructure\bin\Debug\net5.0\PortalCore.Domain.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\Infrastructure\bin\Debug\net5.0\PortalCore.Application.pdb
+D:\Projects\Real Projects\Web API\PortalCore\src\Infrastructure\bin\Debug\net5.0\PortalCore.Application.xml
+D:\Projects\Real Projects\Web API\PortalCore\src\Infrastructure\bin\Debug\net5.0\PortalCore.Common.pdb
+D:\Projects\Real Projects\Web API\PortalCore\src\Infrastructure\bin\Debug\net5.0\PortalCore.Domain.pdb
+D:\Projects\Real Projects\Web API\PortalCore\src\Infrastructure\obj\Debug\net5.0\Infrastructure.csproj.AssemblyReference.cache
+D:\Projects\Real Projects\Web API\PortalCore\src\Infrastructure\obj\Debug\net5.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Real Projects\Web API\PortalCore\src\Infrastructure\obj\Debug\net5.0\Infrastructure.AssemblyInfoInputs.cache
+D:\Projects\Real Projects\Web API\PortalCore\src\Infrastructure\obj\Debug\net5.0\Infrastructure.AssemblyInfo.cs
+D:\Projects\Real Projects\Web API\PortalCore\src\Infrastructure\obj\Debug\net5.0\Infrastructure.csproj.CoreCompileInputs.cache
+D:\Projects\Real Projects\Web API\PortalCore\src\Infrastructure\obj\Debug\net5.0\Infrastructure.csproj.CopyComplete
+D:\Projects\Real Projects\Web API\PortalCore\src\Infrastructure\obj\Debug\net5.0\PortalCore.Infrastructure.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\Infrastructure\obj\Debug\net5.0\refint\PortalCore.Infrastructure.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\Infrastructure\obj\Debug\net5.0\PortalCore.Infrastructure.pdb
+D:\Projects\Real Projects\Web API\PortalCore\src\Infrastructure\obj\Debug\net5.0\ref\PortalCore.Infrastructure.dll

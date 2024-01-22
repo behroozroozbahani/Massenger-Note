@@ -1,0 +1,383 @@
+2022-03-04 11:07:46.086 -08:00 [INF] Starting up
+2022-03-04 11:08:08.624 -08:00 [WRN] Entity 'MessengerGroupMessage' has a global query filter defined and is the required end of a relationship with the entity 'MessengerGroupMessageSeenMessage'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2022-03-04 11:08:08.710 -08:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2022-03-04 11:08:09.936 -08:00 [INF] Entity Framework Core 5.0.12 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: SensitiveDataLoggingEnabled MaxPoolSize=128 CommandTimeout=180 MigrationsAssembly=PortalCore.Persistence, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+2022-03-04 11:08:12.104 -08:00 [INF] Entity Framework Core 5.0.12 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: SensitiveDataLoggingEnabled MaxPoolSize=128 CommandTimeout=180 MigrationsAssembly=PortalCore.Persistence, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+2022-03-04 11:08:12.685 -08:00 [INF] Executed DbCommand (69ms) [Parameters=[], CommandType='"Text"', CommandTimeout='180']
+SELECT 1
+2022-03-04 11:08:12.882 -08:00 [INF] Executed DbCommand (156ms) [Parameters=[], CommandType='"Text"', CommandTimeout='180']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2022-03-04 11:08:12.893 -08:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='180']
+SELECT 1
+2022-03-04 11:08:12.897 -08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='180']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2022-03-04 11:08:13.102 -08:00 [INF] Executed DbCommand (124ms) [Parameters=[], CommandType='"Text"', CommandTimeout='180']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2022-03-04 11:08:13.189 -08:00 [INF] No migrations were applied. The database is already up to date.
+2022-03-04 11:08:13.354 -08:00 [INF] Entity Framework Core 5.0.12 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: SensitiveDataLoggingEnabled MaxPoolSize=128 CommandTimeout=180 MigrationsAssembly=PortalCore.Persistence, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+2022-03-04 11:08:15.135 -08:00 [INF] Executed DbCommand (189ms) [Parameters=[@__normalizedUserName_0='ADMIN' (Size = 256)], CommandType='"Text"', CommandTimeout='180']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedByBrowserName], [a].[CreatedByIp], [a].[CreatedByUserId], [a].[CreatedDateTime], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[IsActive], [a].[LastLoggedIn], [a].[LastName], [a].[LastVisitDateTime], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[MobileNumber], [a].[ModifiedByBrowserName], [a].[ModifiedByIp], [a].[ModifiedByUserId], [a].[ModifiedDateTime], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[ProfileImage], [a].[SecurityStamp], [a].[SerialNumber], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AppUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2022-03-04 11:08:15.677 -08:00 [INF] Executed DbCommand (386ms) [Parameters=[@__normalizedName_0='ADMIN' (Size = 256)], CommandType='"Text"', CommandTimeout='180']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[CreatedByBrowserName], [a].[CreatedByIp], [a].[CreatedByUserId], [a].[CreatedDateTime], [a].[Description], [a].[ModifiedByBrowserName], [a].[ModifiedByIp], [a].[ModifiedByUserId], [a].[ModifiedDateTime], [a].[Name], [a].[NormalizedName]
+FROM [AppRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2022-03-04 11:08:15.748 -08:00 [INF] Executed DbCommand (23ms) [Parameters=[@__normalizedName_0='ADMIN' (Size = 256)], CommandType='"Text"', CommandTimeout='180']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[CreatedByBrowserName], [a].[CreatedByIp], [a].[CreatedByUserId], [a].[CreatedDateTime], [a].[Description], [a].[ModifiedByBrowserName], [a].[ModifiedByIp], [a].[ModifiedByUserId], [a].[ModifiedDateTime], [a].[Name], [a].[NormalizedName]
+FROM [AppRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2022-03-04 11:08:16.701 -08:00 [INF] Executed DbCommand (157ms) [Parameters=[@p0='f87256d6-d3d2-4f26-09a3-08d9fe125634', @p1='efce1eaa-6558-4917-ae28-69c3f0fc78e9' (Size = 4000), @p2=NULL (Size = 1000), @p3=NULL (Size = 255), @p4=NULL (DbType = Guid), @p5='2022-03-04T19:08:16.2199509+00:00' (Nullable = true), @p6=NULL (Size = 4000), @p7=NULL (Size = 1000), @p8=NULL (Size = 255), @p9=NULL (DbType = Guid), @p10=NULL (DbType = DateTimeOffset), @p11='Admin' (Size = 256), @p12='ADMIN' (Size = 256)], CommandType='"Text"', CommandTimeout='180']
+SET NOCOUNT ON;
+INSERT INTO [AppRoles] ([Id], [ConcurrencyStamp], [CreatedByBrowserName], [CreatedByIp], [CreatedByUserId], [CreatedDateTime], [Description], [ModifiedByBrowserName], [ModifiedByIp], [ModifiedByUserId], [ModifiedDateTime], [Name], [NormalizedName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12);
+2022-03-04 11:08:16.920 -08:00 [INF] Executed DbCommand (14ms) [Parameters=[@__normalizedUserName_0='ADMIN' (Size = 256)], CommandType='"Text"', CommandTimeout='180']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedByBrowserName], [a].[CreatedByIp], [a].[CreatedByUserId], [a].[CreatedDateTime], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[IsActive], [a].[LastLoggedIn], [a].[LastName], [a].[LastVisitDateTime], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[MobileNumber], [a].[ModifiedByBrowserName], [a].[ModifiedByIp], [a].[ModifiedByUserId], [a].[ModifiedDateTime], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[ProfileImage], [a].[SecurityStamp], [a].[SerialNumber], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AppUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2022-03-04 11:08:16.932 -08:00 [INF] Executed DbCommand (5ms) [Parameters=[@__normalizedUserName_0='ADMIN' (Size = 256)], CommandType='"Text"', CommandTimeout='180']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedByBrowserName], [a].[CreatedByIp], [a].[CreatedByUserId], [a].[CreatedDateTime], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[IsActive], [a].[LastLoggedIn], [a].[LastName], [a].[LastVisitDateTime], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[MobileNumber], [a].[ModifiedByBrowserName], [a].[ModifiedByIp], [a].[ModifiedByUserId], [a].[ModifiedDateTime], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[ProfileImage], [a].[SecurityStamp], [a].[SerialNumber], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AppUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2022-03-04 11:08:17.376 -08:00 [INF] Executed DbCommand (123ms) [Parameters=[@p0='48075ea3-30ef-4e4d-5f72-08d9fe1256d7', @p1='0', @p2='58aabf80-f941-48e9-874c-47ca930beeea' (Size = 4000), @p3=NULL (Size = 1000), @p4=NULL (Size = 255), @p5=NULL (DbType = Guid), @p6='2022-03-04T19:08:17.2346249+00:00' (Nullable = true), @p7='admin@site.com' (Size = 256), @p8='True', @p9=NULL (Size = 450), @p10='True', @p11=NULL (DbType = DateTimeOffset), @p12=NULL (Size = 450), @p13=NULL (DbType = DateTime2), @p14='True', @p15=NULL (DbType = DateTimeOffset), @p16=NULL (Size = 4000), @p17=NULL (Size = 1000), @p18=NULL (Size = 255), @p19=NULL (DbType = Guid), @p20=NULL (DbType = DateTimeOffset), @p21='ADMIN@SITE.COM' (Size = 256), @p22='ADMIN' (Size = 256), @p23='AQAAAAEAACcQAAAAEOeIZosYzjv4Z0j/HpVF/MRllTdr/7vceOCtd/npegwtAxUSZsSml/NiUK1XdBwlKA==' (Size = 4000), @p24=NULL (Size = 4000), @p25='False', @p26=NULL (Size = 4000), @p27='TVXZOWWBXY7EFV6ILGGRKZ6ZQEUZ3S66' (Size = 4000), @p28='6ce0b9e963d744b29cb9392ce9b3332c' (Nullable = false) (Size = 450), @p29='False', @p30='Admin' (Size = 256)], CommandType='"Text"', CommandTimeout='180']
+SET NOCOUNT ON;
+INSERT INTO [AppUsers] ([Id], [AccessFailedCount], [ConcurrencyStamp], [CreatedByBrowserName], [CreatedByIp], [CreatedByUserId], [CreatedDateTime], [Email], [EmailConfirmed], [FirstName], [IsActive], [LastLoggedIn], [LastName], [LastVisitDateTime], [LockoutEnabled], [LockoutEnd], [MobileNumber], [ModifiedByBrowserName], [ModifiedByIp], [ModifiedByUserId], [ModifiedDateTime], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [ProfileImage], [SecurityStamp], [SerialNumber], [TwoFactorEnabled], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20, @p21, @p22, @p23, @p24, @p25, @p26, @p27, @p28, @p29, @p30);
+2022-03-04 11:08:17.606 -08:00 [INF] Executed DbCommand (123ms) [Parameters=[@p0='559d3a85-0ece-4bc1-7f43-08d9fe12571d', @p1=NULL (Size = 1000), @p2=NULL (Size = 255), @p3=NULL (DbType = Guid), @p4='2022-03-04T19:08:17.4756418+00:00' (Nullable = true), @p5='AQAAAAEAACcQAAAAEOeIZosYzjv4Z0j/HpVF/MRllTdr/7vceOCtd/npegwtAxUSZsSml/NiUK1XdBwlKA==' (Nullable = false) (Size = 450), @p6=NULL (Size = 1000), @p7=NULL (Size = 255), @p8=NULL (DbType = Guid), @p9=NULL (DbType = DateTimeOffset), @p10='48075ea3-30ef-4e4d-5f72-08d9fe1256d7'], CommandType='"Text"', CommandTimeout='180']
+SET NOCOUNT ON;
+INSERT INTO [AppUserUsedPasswords] ([Id], [CreatedByBrowserName], [CreatedByIp], [CreatedByUserId], [CreatedDateTime], [HashedPassword], [ModifiedByBrowserName], [ModifiedByIp], [ModifiedByUserId], [ModifiedDateTime], [UserId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10);
+2022-03-04 11:08:17.627 -08:00 [INF] Executed DbCommand (3ms) [Parameters=[@p0='f60c761c-5a5f-46e2-7f44-08d9fe12571d', @p1=NULL (Size = 1000), @p2=NULL (Size = 255), @p3=NULL (DbType = Guid), @p4='2022-03-04T19:08:17.6221099+00:00' (Nullable = true), @p5='AQAAAAEAACcQAAAAEOeIZosYzjv4Z0j/HpVF/MRllTdr/7vceOCtd/npegwtAxUSZsSml/NiUK1XdBwlKA==' (Nullable = false) (Size = 450), @p6=NULL (Size = 1000), @p7=NULL (Size = 255), @p8=NULL (DbType = Guid), @p9=NULL (DbType = DateTimeOffset), @p10='48075ea3-30ef-4e4d-5f72-08d9fe1256d7'], CommandType='"Text"', CommandTimeout='180']
+SET NOCOUNT ON;
+INSERT INTO [AppUserUsedPasswords] ([Id], [CreatedByBrowserName], [CreatedByIp], [CreatedByUserId], [CreatedDateTime], [HashedPassword], [ModifiedByBrowserName], [ModifiedByIp], [ModifiedByUserId], [ModifiedDateTime], [UserId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10);
+2022-03-04 11:08:17.703 -08:00 [INF] Executed DbCommand (67ms) [Parameters=[@__normalizedUserName_0='ADMIN' (Size = 256)], CommandType='"Text"', CommandTimeout='180']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedByBrowserName], [a].[CreatedByIp], [a].[CreatedByUserId], [a].[CreatedDateTime], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[IsActive], [a].[LastLoggedIn], [a].[LastName], [a].[LastVisitDateTime], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[MobileNumber], [a].[ModifiedByBrowserName], [a].[ModifiedByIp], [a].[ModifiedByUserId], [a].[ModifiedDateTime], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[ProfileImage], [a].[SecurityStamp], [a].[SerialNumber], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AppUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2022-03-04 11:08:17.768 -08:00 [INF] Executed DbCommand (15ms) [Parameters=[@__normalizedUserName_0='ADMIN' (Size = 256)], CommandType='"Text"', CommandTimeout='180']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedByBrowserName], [a].[CreatedByIp], [a].[CreatedByUserId], [a].[CreatedDateTime], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[IsActive], [a].[LastLoggedIn], [a].[LastName], [a].[LastVisitDateTime], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[MobileNumber], [a].[ModifiedByBrowserName], [a].[ModifiedByIp], [a].[ModifiedByUserId], [a].[ModifiedDateTime], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[ProfileImage], [a].[SecurityStamp], [a].[SerialNumber], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AppUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2022-03-04 11:08:18.044 -08:00 [INF] Executed DbCommand (234ms) [Parameters=[@p24='48075ea3-30ef-4e4d-5f72-08d9fe1256d7', @p0='0', @p1='43a6128c-2226-43b8-accf-abf7edafac5f' (Size = 4000), @p25='58aabf80-f941-48e9-874c-47ca930beeea' (Size = 4000), @p2='2022-03-04T19:08:17.2346249+00:00' (Nullable = true), @p3='admin@site.com' (Size = 256), @p4='True', @p5=NULL (Size = 450), @p6='True', @p7=NULL (DbType = DateTimeOffset), @p8=NULL (Size = 450), @p9=NULL (DbType = DateTime2), @p10='False', @p11=NULL (DbType = DateTimeOffset), @p12=NULL (Size = 4000), @p13='2022-03-04T19:08:17.7781059+00:00' (Nullable = true), @p14='ADMIN@SITE.COM' (Size = 256), @p15='ADMIN' (Size = 256), @p16='AQAAAAEAACcQAAAAEOeIZosYzjv4Z0j/HpVF/MRllTdr/7vceOCtd/npegwtAxUSZsSml/NiUK1XdBwlKA==' (Size = 4000), @p17=NULL (Size = 4000), @p18='False', @p19=NULL (Size = 4000), @p20='TVXZOWWBXY7EFV6ILGGRKZ6ZQEUZ3S66' (Size = 4000), @p21='6ce0b9e963d744b29cb9392ce9b3332c' (Nullable = false) (Size = 450), @p22='False', @p23='Admin' (Size = 256)], CommandType='"Text"', CommandTimeout='180']
+SET NOCOUNT ON;
+UPDATE [AppUsers] SET [AccessFailedCount] = @p0, [ConcurrencyStamp] = @p1, [CreatedDateTime] = @p2, [Email] = @p3, [EmailConfirmed] = @p4, [FirstName] = @p5, [IsActive] = @p6, [LastLoggedIn] = @p7, [LastName] = @p8, [LastVisitDateTime] = @p9, [LockoutEnabled] = @p10, [LockoutEnd] = @p11, [MobileNumber] = @p12, [ModifiedDateTime] = @p13, [NormalizedEmail] = @p14, [NormalizedUserName] = @p15, [PasswordHash] = @p16, [PhoneNumber] = @p17, [PhoneNumberConfirmed] = @p18, [ProfileImage] = @p19, [SecurityStamp] = @p20, [SerialNumber] = @p21, [TwoFactorEnabled] = @p22, [UserName] = @p23
+WHERE [Id] = @p24 AND [ConcurrencyStamp] = @p25;
+SELECT @@ROWCOUNT;
+2022-03-04 11:08:18.137 -08:00 [INF] Executed DbCommand (19ms) [Parameters=[@__normalizedRoleName_0='ADMIN' (Size = 256)], CommandType='"Text"', CommandTimeout='180']
+SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[CreatedByBrowserName], [a].[CreatedByIp], [a].[CreatedByUserId], [a].[CreatedDateTime], [a].[Description], [a].[ModifiedByBrowserName], [a].[ModifiedByIp], [a].[ModifiedByUserId], [a].[ModifiedDateTime], [a].[Name], [a].[NormalizedName]
+FROM [AppRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0
+2022-03-04 11:08:18.243 -08:00 [INF] Executed DbCommand (8ms) [Parameters=[@__get_Item_0='48075ea3-30ef-4e4d-5f72-08d9fe1256d7' (Nullable = true), @__get_Item_1='f87256d6-d3d2-4f26-09a3-08d9fe125634' (Nullable = true)], CommandType='"Text"', CommandTimeout='180']
+SELECT TOP(1) [a].[UserId], [a].[RoleId], [a].[CreatedByBrowserName], [a].[CreatedByIp], [a].[CreatedByUserId], [a].[CreatedDateTime], [a].[ModifiedByBrowserName], [a].[ModifiedByIp], [a].[ModifiedByUserId], [a].[ModifiedDateTime]
+FROM [AppUserRoles] AS [a]
+WHERE ([a].[UserId] = @__get_Item_0) AND ([a].[RoleId] = @__get_Item_1)
+2022-03-04 11:08:18.263 -08:00 [INF] Executed DbCommand (13ms) [Parameters=[@__normalizedRoleName_0='ADMIN' (Size = 256)], CommandType='"Text"', CommandTimeout='180']
+SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[CreatedByBrowserName], [a].[CreatedByIp], [a].[CreatedByUserId], [a].[CreatedDateTime], [a].[Description], [a].[ModifiedByBrowserName], [a].[ModifiedByIp], [a].[ModifiedByUserId], [a].[ModifiedDateTime], [a].[Name], [a].[NormalizedName]
+FROM [AppRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0
+2022-03-04 11:08:18.349 -08:00 [INF] Executed DbCommand (17ms) [Parameters=[@__normalizedUserName_0='ADMIN' (Size = 256)], CommandType='"Text"', CommandTimeout='180']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedByBrowserName], [a].[CreatedByIp], [a].[CreatedByUserId], [a].[CreatedDateTime], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[IsActive], [a].[LastLoggedIn], [a].[LastName], [a].[LastVisitDateTime], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[MobileNumber], [a].[ModifiedByBrowserName], [a].[ModifiedByIp], [a].[ModifiedByUserId], [a].[ModifiedDateTime], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[ProfileImage], [a].[SecurityStamp], [a].[SerialNumber], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AppUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2022-03-04 11:08:18.355 -08:00 [INF] Executed DbCommand (3ms) [Parameters=[@__normalizedUserName_0='ADMIN' (Size = 256)], CommandType='"Text"', CommandTimeout='180']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedByBrowserName], [a].[CreatedByIp], [a].[CreatedByUserId], [a].[CreatedDateTime], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[IsActive], [a].[LastLoggedIn], [a].[LastName], [a].[LastVisitDateTime], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[MobileNumber], [a].[ModifiedByBrowserName], [a].[ModifiedByIp], [a].[ModifiedByUserId], [a].[ModifiedDateTime], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[ProfileImage], [a].[SecurityStamp], [a].[SerialNumber], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AppUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2022-03-04 11:08:18.444 -08:00 [INF] Executed DbCommand (55ms) [Parameters=[@p0='f87256d6-d3d2-4f26-09a3-08d9fe125634', @p1='48075ea3-30ef-4e4d-5f72-08d9fe1256d7', @p2=NULL (Size = 1000), @p3=NULL (Size = 255), @p4=NULL (DbType = Guid), @p5='2022-03-04T19:08:18.3685980+00:00' (Nullable = true), @p6=NULL (Size = 1000), @p7=NULL (Size = 255), @p8=NULL (DbType = Guid), @p9=NULL (DbType = DateTimeOffset)], CommandType='"Text"', CommandTimeout='180']
+SET NOCOUNT ON;
+INSERT INTO [AppUserRoles] ([RoleId], [UserId], [CreatedByBrowserName], [CreatedByIp], [CreatedByUserId], [CreatedDateTime], [ModifiedByBrowserName], [ModifiedByIp], [ModifiedByUserId], [ModifiedDateTime])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9);
+2022-03-04 11:08:18.462 -08:00 [INF] Executed DbCommand (17ms) [Parameters=[@p24='48075ea3-30ef-4e4d-5f72-08d9fe1256d7', @p0='0', @p1='562338d4-46ae-4a6e-8e56-5e0fe9403a43' (Size = 4000), @p25='43a6128c-2226-43b8-accf-abf7edafac5f' (Size = 4000), @p2='2022-03-04T19:08:17.2346249+00:00' (Nullable = true), @p3='admin@site.com' (Size = 256), @p4='True', @p5=NULL (Size = 450), @p6='True', @p7=NULL (DbType = DateTimeOffset), @p8=NULL (Size = 450), @p9=NULL (DbType = DateTime2), @p10='False', @p11=NULL (DbType = DateTimeOffset), @p12=NULL (Size = 4000), @p13='2022-03-04T19:08:18.3685980+00:00' (Nullable = true), @p14='ADMIN@SITE.COM' (Size = 256), @p15='ADMIN' (Size = 256), @p16='AQAAAAEAACcQAAAAEOeIZosYzjv4Z0j/HpVF/MRllTdr/7vceOCtd/npegwtAxUSZsSml/NiUK1XdBwlKA==' (Size = 4000), @p17=NULL (Size = 4000), @p18='False', @p19=NULL (Size = 4000), @p20='TVXZOWWBXY7EFV6ILGGRKZ6ZQEUZ3S66' (Size = 4000), @p21='6ce0b9e963d744b29cb9392ce9b3332c' (Nullable = false) (Size = 450), @p22='False', @p23='Admin' (Size = 256)], CommandType='"Text"', CommandTimeout='180']
+SET NOCOUNT ON;
+UPDATE [AppUsers] SET [AccessFailedCount] = @p0, [ConcurrencyStamp] = @p1, [CreatedDateTime] = @p2, [Email] = @p3, [EmailConfirmed] = @p4, [FirstName] = @p5, [IsActive] = @p6, [LastLoggedIn] = @p7, [LastName] = @p8, [LastVisitDateTime] = @p9, [LockoutEnabled] = @p10, [LockoutEnd] = @p11, [MobileNumber] = @p12, [ModifiedDateTime] = @p13, [NormalizedEmail] = @p14, [NormalizedUserName] = @p15, [PasswordHash] = @p16, [PhoneNumber] = @p17, [PhoneNumberConfirmed] = @p18, [ProfileImage] = @p19, [SecurityStamp] = @p20, [SerialNumber] = @p21, [TwoFactorEnabled] = @p22, [UserName] = @p23
+WHERE [Id] = @p24 AND [ConcurrencyStamp] = @p25;
+SELECT @@ROWCOUNT;
+2022-03-04 11:08:18.520 -08:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='180']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AppRoles] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2022-03-04 11:08:29.015 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-04 11:08:29.015 -08:00 [INF] Hosting environment: Development
+2022-03-04 11:08:29.015 -08:00 [INF] Content root path: E:\Projects\Real Projects\NikData\PortalCore\src\WebApi
+2022-03-04 11:50:57.012 -08:00 [INF] Starting up
+2022-03-04 11:51:23.522 -08:00 [WRN] Entity 'MessengerGroupMessage' has a global query filter defined and is the required end of a relationship with the entity 'MessengerGroupMessageSeenMessage'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2022-03-04 11:51:23.646 -08:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2022-03-04 11:51:24.763 -08:00 [INF] Entity Framework Core 5.0.12 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: SensitiveDataLoggingEnabled MaxPoolSize=128 CommandTimeout=180 MigrationsAssembly=PortalCore.Persistence, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+2022-03-04 11:51:27.702 -08:00 [INF] Entity Framework Core 5.0.12 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: SensitiveDataLoggingEnabled MaxPoolSize=128 CommandTimeout=180 MigrationsAssembly=PortalCore.Persistence, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+2022-03-04 11:51:28.953 -08:00 [INF] Executed DbCommand (315ms) [Parameters=[], CommandType='"Text"', CommandTimeout='180']
+SELECT 1
+2022-03-04 11:51:29.240 -08:00 [INF] Executed DbCommand (241ms) [Parameters=[], CommandType='"Text"', CommandTimeout='180']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2022-03-04 11:51:29.249 -08:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='180']
+SELECT 1
+2022-03-04 11:51:29.254 -08:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='180']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2022-03-04 11:51:29.570 -08:00 [INF] Executed DbCommand (142ms) [Parameters=[], CommandType='"Text"', CommandTimeout='180']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2022-03-04 11:51:29.756 -08:00 [INF] No migrations were applied. The database is already up to date.
+2022-03-04 11:51:29.917 -08:00 [INF] Entity Framework Core 5.0.12 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: SensitiveDataLoggingEnabled MaxPoolSize=128 CommandTimeout=180 MigrationsAssembly=PortalCore.Persistence, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+2022-03-04 11:51:33.239 -08:00 [INF] Executed DbCommand (496ms) [Parameters=[@__normalizedUserName_0='ADMIN' (Size = 256)], CommandType='"Text"', CommandTimeout='180']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedByBrowserName], [a].[CreatedByIp], [a].[CreatedByUserId], [a].[CreatedDateTime], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[IsActive], [a].[LastLoggedIn], [a].[LastName], [a].[LastVisitDateTime], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[MobileNumber], [a].[ModifiedByBrowserName], [a].[ModifiedByIp], [a].[ModifiedByUserId], [a].[ModifiedDateTime], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[ProfileImage], [a].[SecurityStamp], [a].[SerialNumber], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AppUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2022-03-04 11:51:34.186 -08:00 [INF] SeedDatabaseWithAdminUserAsync: adminUser already exists.
+2022-03-04 11:51:34.362 -08:00 [INF] Executed DbCommand (44ms) [Parameters=[], CommandType='"Text"', CommandTimeout='180']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AppRoles] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2022-03-04 11:51:43.240 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-04 11:51:43.240 -08:00 [INF] Hosting environment: Development
+2022-03-04 11:51:43.240 -08:00 [INF] Content root path: E:\Projects\Real Projects\NikData\PortalCore\src\WebApi
+2022-03-04 12:07:03.045 -08:00 [INF] Entity Framework Core 5.0.12 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: SensitiveDataLoggingEnabled MaxPoolSize=128 CommandTimeout=180 MigrationsAssembly=PortalCore.Persistence, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+2022-03-04 12:07:04.527 -08:00 [INF] PortalCore Request: LoginAccountCommand null {"Username":"Behrooz","Password":"1234P@$$","$type":"LoginAccountCommand"}
+2022-03-04 12:07:04.979 -08:00 [INF] Executed DbCommand (181ms) [Parameters=[@__normalizedUserName_0='BEHROOZ' (Size = 256)], CommandType='"Text"', CommandTimeout='180']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedByBrowserName], [a].[CreatedByIp], [a].[CreatedByUserId], [a].[CreatedDateTime], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[IsActive], [a].[LastLoggedIn], [a].[LastName], [a].[LastVisitDateTime], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[MobileNumber], [a].[ModifiedByBrowserName], [a].[ModifiedByIp], [a].[ModifiedByUserId], [a].[ModifiedDateTime], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[ProfileImage], [a].[SecurityStamp], [a].[SerialNumber], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AppUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2022-03-04 12:07:06.268 -08:00 [INF] Executed DbCommand (993ms) [Parameters=[@__userId_0='48075ea3-30ef-4e4d-5f72-08d9fe1256d8'], CommandType='"Text"', CommandTimeout='180']
+SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[CreatedByBrowserName], [a].[CreatedByIp], [a].[CreatedByUserId], [a].[CreatedDateTime], [a].[Description], [a].[ModifiedByBrowserName], [a].[ModifiedByIp], [a].[ModifiedByUserId], [a].[ModifiedDateTime], [a].[Name], [a].[NormalizedName]
+FROM [AppRoles] AS [a]
+INNER JOIN [AppUserRoles] AS [a0] ON [a].[Id] = [a0].[RoleId]
+WHERE [a0].[UserId] = @__userId_0
+ORDER BY [a].[Name]
+2022-03-04 12:07:06.452 -08:00 [INF] Executed DbCommand (57ms) [Parameters=[@__role_Id_0='f87256d6-d3d2-4f26-09a3-08d9fe125635'], CommandType='"Text"', CommandTimeout='180']
+SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AppRoleClaims] AS [a]
+WHERE [a].[RoleId] = @__role_Id_0
+2022-03-04 12:07:07.882 -08:00 [INF] Executed DbCommand (89ms) [Parameters=[@__userId_0='48075ea3-30ef-4e4d-5f72-08d9fe1256d8'], CommandType='"Text"', CommandTimeout='180']
+SELECT [a].[Id], [a].[AccessTokenExpiresDateTime], [a].[AccessTokenHash], [a].[CreatedByBrowserName], [a].[CreatedByIp], [a].[CreatedByUserId], [a].[CreatedDateTime], [a].[ModifiedByBrowserName], [a].[ModifiedByIp], [a].[ModifiedByUserId], [a].[ModifiedDateTime], [a].[RefreshTokenExpiresDateTime], [a].[RefreshTokenIdHash], [a].[RefreshTokenIdHashSource], [a].[UserId]
+FROM [AppJwtUserTokens] AS [a]
+WHERE [a].[UserId] = @__userId_0
+2022-03-04 12:07:08.462 -08:00 [INF] Executed DbCommand (101ms) [Parameters=[@p0='d4603677-f4ae-4f89-a8af-08d9fe1a8f76', @p1='2022-03-05T04:07:07.6534317+00:00', @p2='QCDjmLpG0x2e0Kay0zBZhch0UI1bZslTetGgROzQQOo=' (Size = 4000), @p3='PostmanRuntime/7.28.3' (Size = 1000), @p4='::1' (Size = 255), @p5=NULL (DbType = Guid), @p6='2022-03-04T20:07:08.1731053+00:00' (Nullable = true), @p7=NULL (Size = 1000), @p8=NULL (Size = 255), @p9=NULL (DbType = Guid), @p10=NULL (DbType = DateTimeOffset), @p11='2022-03-05T08:07:07.6534317+00:00', @p12='GSvx5hi1HXQ26v4RYq87ON3m0JBOy4gnRX4hqKMyXqs=' (Nullable = false) (Size = 450), @p13=NULL (Size = 450), @p14='48075ea3-30ef-4e4d-5f72-08d9fe1256d8'], CommandType='"Text"', CommandTimeout='180']
+SET NOCOUNT ON;
+INSERT INTO [AppJwtUserTokens] ([Id], [AccessTokenExpiresDateTime], [AccessTokenHash], [CreatedByBrowserName], [CreatedByIp], [CreatedByUserId], [CreatedDateTime], [ModifiedByBrowserName], [ModifiedByIp], [ModifiedByUserId], [ModifiedDateTime], [RefreshTokenExpiresDateTime], [RefreshTokenIdHash], [RefreshTokenIdHashSource], [UserId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14);
+2022-03-04 12:07:08.564 -08:00 [WRN] PortalCore Long Running Request: LoginAccountCommand (3956 milliseconds) "48075ea3-30ef-4e4d-5f72-08d9fe1256d8" {"Username":"Behrooz","Password":"1234P@$$","$type":"LoginAccountCommand"}
+2022-03-04 12:09:11.282 -08:00 [INF] Entity Framework Core 5.0.12 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: SensitiveDataLoggingEnabled MaxPoolSize=128 CommandTimeout=180 MigrationsAssembly=PortalCore.Persistence, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+2022-03-04 12:09:11.404 -08:00 [INF] Executed DbCommand (74ms) [Parameters=[@__get_Item_0='48075ea3-30ef-4e4d-5f72-08d9fe1256d8' (Nullable = true)], CommandType='"Text"', CommandTimeout='180']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedByBrowserName], [a].[CreatedByIp], [a].[CreatedByUserId], [a].[CreatedDateTime], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[IsActive], [a].[LastLoggedIn], [a].[LastName], [a].[LastVisitDateTime], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[MobileNumber], [a].[ModifiedByBrowserName], [a].[ModifiedByIp], [a].[ModifiedByUserId], [a].[ModifiedDateTime], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[ProfileImage], [a].[SecurityStamp], [a].[SerialNumber], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AppUsers] AS [a]
+WHERE [a].[Id] = @__get_Item_0
+2022-03-04 12:09:11.936 -08:00 [INF] Executed DbCommand (506ms) [Parameters=[@__accessTokenHash_0='QCDjmLpG0x2e0Kay0zBZhch0UI1bZslTetGgROzQQOo=' (Size = 4000), @__userId_1='48075ea3-30ef-4e4d-5f72-08d9fe1256d8'], CommandType='"Text"', CommandTimeout='180']
+SELECT TOP(1) [a].[Id], [a].[AccessTokenExpiresDateTime], [a].[AccessTokenHash], [a].[CreatedByBrowserName], [a].[CreatedByIp], [a].[CreatedByUserId], [a].[CreatedDateTime], [a].[ModifiedByBrowserName], [a].[ModifiedByIp], [a].[ModifiedByUserId], [a].[ModifiedDateTime], [a].[RefreshTokenExpiresDateTime], [a].[RefreshTokenIdHash], [a].[RefreshTokenIdHashSource], [a].[UserId]
+FROM [AppJwtUserTokens] AS [a]
+WHERE ([a].[AccessTokenHash] = @__accessTokenHash_0) AND ([a].[UserId] = @__userId_1)
+2022-03-04 12:09:12.065 -08:00 [INF] Executed DbCommand (81ms) [Parameters=[@p4='48075ea3-30ef-4e4d-5f72-08d9fe1256d8', @p5='562338d4-46ae-4a6e-8e56-5e0fe9403a43' (Size = 4000), @p0='2022-03-04T20:09:11.9467229+00:00' (Nullable = true), @p1='PostmanRuntime/7.28.3' (Size = 1000), @p2='::1' (Size = 255), @p3='2022-03-04T20:09:11.9602819+00:00' (Nullable = true)], CommandType='"Text"', CommandTimeout='180']
+SET NOCOUNT ON;
+UPDATE [AppUsers] SET [LastLoggedIn] = @p0, [ModifiedByBrowserName] = @p1, [ModifiedByIp] = @p2, [ModifiedDateTime] = @p3
+WHERE [Id] = @p4 AND [ConcurrencyStamp] = @p5;
+SELECT @@ROWCOUNT;
+2022-03-04 12:09:12.521 -08:00 [INF] Executed DbCommand (230ms) [Parameters=[@__userId_0='48075ea3-30ef-4e4d-5f72-08d9fe1256d8'], CommandType='"Text"', CommandTimeout='180']
+SELECT [a0].[Name], [a].[UserId], [a].[RoleId], [a0].[Id], [a1].[ClaimType], [a1].[ClaimValue], [a1].[Id]
+FROM [AppUserRoles] AS [a]
+INNER JOIN [AppRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+LEFT JOIN [AppRoleClaims] AS [a1] ON [a0].[Id] = [a1].[RoleId]
+WHERE [a].[UserId] = @__userId_0
+ORDER BY [a].[UserId], [a].[RoleId], [a0].[Id], [a1].[Id]
+2022-03-04 12:09:12.831 -08:00 [INF] PortalCore Request: CreateMessengerPrivateMessageCommand "48075ea3-30ef-4e4d-5f72-08d9fe1256d8" {"RecipientId":"48075ea3-30ef-4e4d-5f72-08d9fe1256d9","ParentId":null,"MessageBody":"salam reza khoobi?","File":{"ContentDisposition":"form-data; name=\"File\"; filename=\"Arshia-wallpaper454.jpg\"","ContentType":"image/jpeg","Headers":[{"Key":"Content-Disposition","Value":["form-data; name=\"File\"; filename=\"Arshia-wallpaper454.jpg\""],"$type":"KeyValuePair`2"},{"Key":"Content-Type","Value":["image/jpeg"],"$type":"KeyValuePair`2"}],"Length":996693,"Name":"File","FileName":"Arshia-wallpaper454.jpg","$type":"FormFile"},"$type":"CreateMessengerPrivateMessageCommand"}
+2022-03-04 12:09:14.871 -08:00 [INF] Executed DbCommand (486ms) [Parameters=[@__GetUserId_0='48075ea3-30ef-4e4d-5f72-08d9fe1256d8', @__request_RecipientId_1='48075ea3-30ef-4e4d-5f72-08d9fe1256d9'], CommandType='"Text"', CommandTimeout='180']
+SELECT TOP(1) [m].[Id], [m].[CreatedByBrowserName], [m].[CreatedByIp], [m].[CreatedByUserId], [m].[CreatedDateTime], [m].[DeletedByBrowserName], [m].[DeletedByIp], [m].[DeletedByUserId], [m].[DeletedDateTime], [m].[IsDeleted], [m].[IsRead], [m].[MessageBody], [m].[ModifiedByBrowserName], [m].[ModifiedByIp], [m].[ModifiedByUserId], [m].[ModifiedDateTime], [m].[ParentId], [m].[RecipientId], [m].[SendDateTime], [m].[SenderId], [m].[SenderRecipientId]
+FROM [MessengerPrivateMessages] AS [m]
+WHERE ([m].[IsDeleted] <> CAST(1 AS bit)) AND ((([m].[SenderId] = @__GetUserId_0) AND ([m].[RecipientId] = @__request_RecipientId_1)) OR (([m].[RecipientId] = @__GetUserId_0) AND ([m].[SenderId] = @__request_RecipientId_1)))
+2022-03-04 12:09:19.323 -08:00 [INF] Executed DbCommand (531ms) [Parameters=[@p0='f77733ef-afea-4251-a978-63e2dc483c90', @p1='PostmanRuntime/7.28.3' (Size = 1000), @p2='::1' (Size = 255), @p3='48075ea3-30ef-4e4d-5f72-08d9fe1256d8' (Nullable = true), @p4='2022-03-04T20:09:18.7511142+00:00' (Nullable = true), @p5=NULL (Size = 1000), @p6=NULL (Size = 255), @p7=NULL (DbType = Guid), @p8=NULL (DbType = DateTimeOffset), @p9='False', @p10='False', @p11='salam reza khoobi?' (Nullable = false) (Size = 4000), @p12=NULL (Size = 1000), @p13=NULL (Size = 255), @p14=NULL (DbType = Guid), @p15=NULL (DbType = DateTimeOffset), @p16=NULL (DbType = Guid), @p17='48075ea3-30ef-4e4d-5f72-08d9fe1256d9', @p18='2022-03-04T12:09:14.2959338-08:00', @p19='48075ea3-30ef-4e4d-5f72-08d9fe1256d8', @p20='e451b60c-1afb-4e9c-b904-b25fd586b7e3'], CommandType='"Text"', CommandTimeout='180']
+SET NOCOUNT ON;
+INSERT INTO [MessengerPrivateMessages] ([Id], [CreatedByBrowserName], [CreatedByIp], [CreatedByUserId], [CreatedDateTime], [DeletedByBrowserName], [DeletedByIp], [DeletedByUserId], [DeletedDateTime], [IsDeleted], [IsRead], [MessageBody], [ModifiedByBrowserName], [ModifiedByIp], [ModifiedByUserId], [ModifiedDateTime], [ParentId], [RecipientId], [SendDateTime], [SenderId], [SenderRecipientId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20);
+2022-03-04 12:09:19.651 -08:00 [INF] Executed DbCommand (327ms) [Parameters=[@p21='c3f53ac0-adfa-4cd1-a669-282514db4e11', @p22='PostmanRuntime/7.28.3' (Size = 1000), @p23='::1' (Size = 255), @p24='48075ea3-30ef-4e4d-5f72-08d9fe1256d8' (Nullable = true), @p25='2022-03-04T20:09:18.7511142+00:00' (Nullable = true), @p26=NULL (Size = 1000), @p27=NULL (Size = 255), @p28=NULL (DbType = Guid), @p29=NULL (DbType = DateTimeOffset), @p30='.jpg' (Nullable = false) (Size = 4000), @p31='image/jpeg' (Nullable = false) (Size = 4000), @p32='342022309427.jpg' (Nullable = false) (Size = 4000), @p33='E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\wwwroot\MessengerPrivateMessages\342022309427.jpg' (Nullable = false) (Size = 4000), @p34='Arshia-wallpaper454' (Nullable = false) (Size = 4000), @p35='342022706358.jpg' (Nullable = false) (Size = 4000), @p36='False', @p37=NULL (DbType = Guid), @p38='f77733ef-afea-4251-a978-63e2dc483c90' (Nullable = true), @p39=NULL (Size = 1000), @p40=NULL (Size = 255), @p41=NULL (DbType = Guid), @p42=NULL (DbType = DateTimeOffset)], CommandType='"Text"', CommandTimeout='180']
+SET NOCOUNT ON;
+INSERT INTO [MessengerMessageFiles] ([Id], [CreatedByBrowserName], [CreatedByIp], [CreatedByUserId], [CreatedDateTime], [DeletedByBrowserName], [DeletedByIp], [DeletedByUserId], [DeletedDateTime], [FileExtension], [FileMime], [FileName], [FilePath], [FileRealName], [FileThumbNail], [IsDeleted], [MessengerGroupMessageId], [MessengerPrivateMessageId], [ModifiedByBrowserName], [ModifiedByIp], [ModifiedByUserId], [ModifiedDateTime])
+VALUES (@p21, @p22, @p23, @p24, @p25, @p26, @p27, @p28, @p29, @p30, @p31, @p32, @p33, @p34, @p35, @p36, @p37, @p38, @p39, @p40, @p41, @p42);
+2022-03-04 12:09:19.759 -08:00 [WRN] PortalCore Long Running Request: CreateMessengerPrivateMessageCommand (6896 milliseconds) "48075ea3-30ef-4e4d-5f72-08d9fe1256d8" {"RecipientId":"48075ea3-30ef-4e4d-5f72-08d9fe1256d9","ParentId":null,"MessageBody":"salam reza khoobi?","File":{"ContentDisposition":"form-data; name=\"File\"; filename=\"Arshia-wallpaper454.jpg\"","ContentType":"image/jpeg","Headers":[{"Key":"Content-Disposition","Value":["form-data; name=\"File\"; filename=\"Arshia-wallpaper454.jpg\""],"$type":"KeyValuePair`2"},{"Key":"Content-Type","Value":["image/jpeg"],"$type":"KeyValuePair`2"}],"Length":996693,"Name":"File","FileName":"Arshia-wallpaper454.jpg","$type":"FormFile"},"$type":"CreateMessengerPrivateMessageCommand"}
+2022-03-04 12:09:43.004 -08:00 [INF] Entity Framework Core 5.0.12 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: SensitiveDataLoggingEnabled MaxPoolSize=128 CommandTimeout=180 MigrationsAssembly=PortalCore.Persistence, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+2022-03-04 12:09:43.032 -08:00 [INF] Executed DbCommand (15ms) [Parameters=[@__get_Item_0='48075ea3-30ef-4e4d-5f72-08d9fe1256d8' (Nullable = true)], CommandType='"Text"', CommandTimeout='180']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedByBrowserName], [a].[CreatedByIp], [a].[CreatedByUserId], [a].[CreatedDateTime], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[IsActive], [a].[LastLoggedIn], [a].[LastName], [a].[LastVisitDateTime], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[MobileNumber], [a].[ModifiedByBrowserName], [a].[ModifiedByIp], [a].[ModifiedByUserId], [a].[ModifiedDateTime], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[ProfileImage], [a].[SecurityStamp], [a].[SerialNumber], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AppUsers] AS [a]
+WHERE [a].[Id] = @__get_Item_0
+2022-03-04 12:09:43.086 -08:00 [INF] Executed DbCommand (51ms) [Parameters=[@__accessTokenHash_0='QCDjmLpG0x2e0Kay0zBZhch0UI1bZslTetGgROzQQOo=' (Size = 4000), @__userId_1='48075ea3-30ef-4e4d-5f72-08d9fe1256d8'], CommandType='"Text"', CommandTimeout='180']
+SELECT TOP(1) [a].[Id], [a].[AccessTokenExpiresDateTime], [a].[AccessTokenHash], [a].[CreatedByBrowserName], [a].[CreatedByIp], [a].[CreatedByUserId], [a].[CreatedDateTime], [a].[ModifiedByBrowserName], [a].[ModifiedByIp], [a].[ModifiedByUserId], [a].[ModifiedDateTime], [a].[RefreshTokenExpiresDateTime], [a].[RefreshTokenIdHash], [a].[RefreshTokenIdHashSource], [a].[UserId]
+FROM [AppJwtUserTokens] AS [a]
+WHERE ([a].[AccessTokenHash] = @__accessTokenHash_0) AND ([a].[UserId] = @__userId_1)
+2022-03-04 12:09:43.096 -08:00 [INF] PortalCore Request: LoginAccountCommand "48075ea3-30ef-4e4d-5f72-08d9fe1256d8" {"Username":"Reza","Password":"1234P@$$","$type":"LoginAccountCommand"}
+2022-03-04 12:09:43.110 -08:00 [INF] Executed DbCommand (13ms) [Parameters=[@__normalizedUserName_0='REZA' (Size = 256)], CommandType='"Text"', CommandTimeout='180']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedByBrowserName], [a].[CreatedByIp], [a].[CreatedByUserId], [a].[CreatedDateTime], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[IsActive], [a].[LastLoggedIn], [a].[LastName], [a].[LastVisitDateTime], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[MobileNumber], [a].[ModifiedByBrowserName], [a].[ModifiedByIp], [a].[ModifiedByUserId], [a].[ModifiedDateTime], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[ProfileImage], [a].[SecurityStamp], [a].[SerialNumber], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AppUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2022-03-04 12:09:43.201 -08:00 [INF] Executed DbCommand (71ms) [Parameters=[@__userId_0='48075ea3-30ef-4e4d-5f72-08d9fe1256d9'], CommandType='"Text"', CommandTimeout='180']
+SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[CreatedByBrowserName], [a].[CreatedByIp], [a].[CreatedByUserId], [a].[CreatedDateTime], [a].[Description], [a].[ModifiedByBrowserName], [a].[ModifiedByIp], [a].[ModifiedByUserId], [a].[ModifiedDateTime], [a].[Name], [a].[NormalizedName]
+FROM [AppRoles] AS [a]
+INNER JOIN [AppUserRoles] AS [a0] ON [a].[Id] = [a0].[RoleId]
+WHERE [a0].[UserId] = @__userId_0
+ORDER BY [a].[Name]
+2022-03-04 12:09:43.264 -08:00 [INF] Executed DbCommand (61ms) [Parameters=[@__role_Id_0='f87256d6-d3d2-4f26-09a3-08d9fe125636'], CommandType='"Text"', CommandTimeout='180']
+SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AppRoleClaims] AS [a]
+WHERE [a].[RoleId] = @__role_Id_0
+2022-03-04 12:09:43.286 -08:00 [INF] Executed DbCommand (14ms) [Parameters=[@__userId_0='48075ea3-30ef-4e4d-5f72-08d9fe1256d9'], CommandType='"Text"', CommandTimeout='180']
+SELECT [a].[Id], [a].[AccessTokenExpiresDateTime], [a].[AccessTokenHash], [a].[CreatedByBrowserName], [a].[CreatedByIp], [a].[CreatedByUserId], [a].[CreatedDateTime], [a].[ModifiedByBrowserName], [a].[ModifiedByIp], [a].[ModifiedByUserId], [a].[ModifiedDateTime], [a].[RefreshTokenExpiresDateTime], [a].[RefreshTokenIdHash], [a].[RefreshTokenIdHashSource], [a].[UserId]
+FROM [AppJwtUserTokens] AS [a]
+WHERE [a].[UserId] = @__userId_0
+2022-03-04 12:09:43.457 -08:00 [INF] Executed DbCommand (134ms) [Parameters=[@p0='0b0c835e-ed97-4eac-a8b0-08d9fe1a8f76', @p1='2022-03-05T04:09:43.2666803+00:00', @p2='sP2aexp5P8wcE66xKOQ4wOnxGDWJZJ3qstfDfryTylQ=' (Size = 4000), @p3='PostmanRuntime/7.28.3' (Size = 1000), @p4='::1' (Size = 255), @p5='48075ea3-30ef-4e4d-5f72-08d9fe1256d8' (Nullable = true), @p6='2022-03-04T20:09:43.2936885+00:00' (Nullable = true), @p7=NULL (Size = 1000), @p8=NULL (Size = 255), @p9=NULL (DbType = Guid), @p10=NULL (DbType = DateTimeOffset), @p11='2022-03-05T08:09:43.2666803+00:00', @p12='Y+VqWFU648v7A8ndspLwebVPI4BO3aRUCyKLpqh4N+E=' (Nullable = false) (Size = 450), @p13=NULL (Size = 450), @p14='48075ea3-30ef-4e4d-5f72-08d9fe1256d9'], CommandType='"Text"', CommandTimeout='180']
+SET NOCOUNT ON;
+INSERT INTO [AppJwtUserTokens] ([Id], [AccessTokenExpiresDateTime], [AccessTokenHash], [CreatedByBrowserName], [CreatedByIp], [CreatedByUserId], [CreatedDateTime], [ModifiedByBrowserName], [ModifiedByIp], [ModifiedByUserId], [ModifiedDateTime], [RefreshTokenExpiresDateTime], [RefreshTokenIdHash], [RefreshTokenIdHashSource], [UserId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14);
+2022-03-04 12:12:18.758 -08:00 [INF] Entity Framework Core 5.0.12 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: SensitiveDataLoggingEnabled MaxPoolSize=128 CommandTimeout=180 MigrationsAssembly=PortalCore.Persistence, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+2022-03-04 12:12:18.862 -08:00 [INF] Executed DbCommand (90ms) [Parameters=[@__get_Item_0='48075ea3-30ef-4e4d-5f72-08d9fe1256d9' (Nullable = true)], CommandType='"Text"', CommandTimeout='180']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedByBrowserName], [a].[CreatedByIp], [a].[CreatedByUserId], [a].[CreatedDateTime], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[IsActive], [a].[LastLoggedIn], [a].[LastName], [a].[LastVisitDateTime], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[MobileNumber], [a].[ModifiedByBrowserName], [a].[ModifiedByIp], [a].[ModifiedByUserId], [a].[ModifiedDateTime], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[ProfileImage], [a].[SecurityStamp], [a].[SerialNumber], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AppUsers] AS [a]
+WHERE [a].[Id] = @__get_Item_0
+2022-03-04 12:12:18.912 -08:00 [INF] Executed DbCommand (48ms) [Parameters=[@__accessTokenHash_0='sP2aexp5P8wcE66xKOQ4wOnxGDWJZJ3qstfDfryTylQ=' (Size = 4000), @__userId_1='48075ea3-30ef-4e4d-5f72-08d9fe1256d9'], CommandType='"Text"', CommandTimeout='180']
+SELECT TOP(1) [a].[Id], [a].[AccessTokenExpiresDateTime], [a].[AccessTokenHash], [a].[CreatedByBrowserName], [a].[CreatedByIp], [a].[CreatedByUserId], [a].[CreatedDateTime], [a].[ModifiedByBrowserName], [a].[ModifiedByIp], [a].[ModifiedByUserId], [a].[ModifiedDateTime], [a].[RefreshTokenExpiresDateTime], [a].[RefreshTokenIdHash], [a].[RefreshTokenIdHashSource], [a].[UserId]
+FROM [AppJwtUserTokens] AS [a]
+WHERE ([a].[AccessTokenHash] = @__accessTokenHash_0) AND ([a].[UserId] = @__userId_1)
+2022-03-04 12:12:19.112 -08:00 [INF] Executed DbCommand (160ms) [Parameters=[@p4='48075ea3-30ef-4e4d-5f72-08d9fe1256d9', @p5='562338d4-46ae-4a6e-8e56-5e0fe9403a43' (Size = 4000), @p0='2022-03-04T20:12:18.9139006+00:00' (Nullable = true), @p1='PostmanRuntime/7.28.3' (Size = 1000), @p2='::1' (Size = 255), @p3='2022-03-04T20:12:18.9461287+00:00' (Nullable = true)], CommandType='"Text"', CommandTimeout='180']
+SET NOCOUNT ON;
+UPDATE [AppUsers] SET [LastLoggedIn] = @p0, [ModifiedByBrowserName] = @p1, [ModifiedByIp] = @p2, [ModifiedDateTime] = @p3
+WHERE [Id] = @p4 AND [ConcurrencyStamp] = @p5;
+SELECT @@ROWCOUNT;
+2022-03-04 12:12:19.176 -08:00 [INF] Executed DbCommand (58ms) [Parameters=[@__userId_0='48075ea3-30ef-4e4d-5f72-08d9fe1256d9'], CommandType='"Text"', CommandTimeout='180']
+SELECT [a0].[Name], [a].[UserId], [a].[RoleId], [a0].[Id], [a1].[ClaimType], [a1].[ClaimValue], [a1].[Id]
+FROM [AppUserRoles] AS [a]
+INNER JOIN [AppRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+LEFT JOIN [AppRoleClaims] AS [a1] ON [a0].[Id] = [a1].[RoleId]
+WHERE [a].[UserId] = @__userId_0
+ORDER BY [a].[UserId], [a].[RoleId], [a0].[Id], [a1].[Id]
+2022-03-04 12:12:19.448 -08:00 [INF] PortalCore Request: CreateMessengerPrivateMessageCommand "48075ea3-30ef-4e4d-5f72-08d9fe1256d9" {"RecipientId":"48075ea3-30ef-4e4d-5f72-08d9fe1256d8","ParentId":"f77733ef-afea-4251-a978-63e2dc483c90","MessageBody":"salam agha behrooz","File":{"ContentDisposition":"form-data; name=\"File\"; filename=\"Arshia-wallpaper510.jpg\"","ContentType":"image/jpeg","Headers":[{"Key":"Content-Disposition","Value":["form-data; name=\"File\"; filename=\"Arshia-wallpaper510.jpg\""],"$type":"KeyValuePair`2"},{"Key":"Content-Type","Value":["image/jpeg"],"$type":"KeyValuePair`2"}],"Length":1586648,"Name":"File","FileName":"Arshia-wallpaper510.jpg","$type":"FormFile"},"$type":"CreateMessengerPrivateMessageCommand"}
+2022-03-04 12:12:19.745 -08:00 [INF] Executed DbCommand (293ms) [Parameters=[@__GetUserId_0='48075ea3-30ef-4e4d-5f72-08d9fe1256d9', @__request_RecipientId_1='48075ea3-30ef-4e4d-5f72-08d9fe1256d8'], CommandType='"Text"', CommandTimeout='180']
+SELECT TOP(1) [m].[Id], [m].[CreatedByBrowserName], [m].[CreatedByIp], [m].[CreatedByUserId], [m].[CreatedDateTime], [m].[DeletedByBrowserName], [m].[DeletedByIp], [m].[DeletedByUserId], [m].[DeletedDateTime], [m].[IsDeleted], [m].[IsRead], [m].[MessageBody], [m].[ModifiedByBrowserName], [m].[ModifiedByIp], [m].[ModifiedByUserId], [m].[ModifiedDateTime], [m].[ParentId], [m].[RecipientId], [m].[SendDateTime], [m].[SenderId], [m].[SenderRecipientId]
+FROM [MessengerPrivateMessages] AS [m]
+WHERE ([m].[IsDeleted] <> CAST(1 AS bit)) AND ((([m].[SenderId] = @__GetUserId_0) AND ([m].[RecipientId] = @__request_RecipientId_1)) OR (([m].[RecipientId] = @__GetUserId_0) AND ([m].[SenderId] = @__request_RecipientId_1)))
+2022-03-04 12:12:20.774 -08:00 [INF] Executed DbCommand (55ms) [Parameters=[@p0='1c4da812-dc6c-4e99-9e21-16a052f491cf', @p1='PostmanRuntime/7.28.3' (Size = 1000), @p2='::1' (Size = 255), @p3='48075ea3-30ef-4e4d-5f72-08d9fe1256d9' (Nullable = true), @p4='2022-03-04T20:12:20.6282788+00:00' (Nullable = true), @p5=NULL (Size = 1000), @p6=NULL (Size = 255), @p7=NULL (DbType = Guid), @p8=NULL (DbType = DateTimeOffset), @p9='False', @p10='False', @p11='salam agha behrooz' (Nullable = false) (Size = 4000), @p12=NULL (Size = 1000), @p13=NULL (Size = 255), @p14=NULL (DbType = Guid), @p15=NULL (DbType = DateTimeOffset), @p16='f77733ef-afea-4251-a978-63e2dc483c90' (Nullable = true), @p17='48075ea3-30ef-4e4d-5f72-08d9fe1256d8', @p18='2022-03-04T12:12:19.4495248-08:00', @p19='48075ea3-30ef-4e4d-5f72-08d9fe1256d9', @p20='e451b60c-1afb-4e9c-b904-b25fd586b7e3'], CommandType='"Text"', CommandTimeout='180']
+SET NOCOUNT ON;
+INSERT INTO [MessengerPrivateMessages] ([Id], [CreatedByBrowserName], [CreatedByIp], [CreatedByUserId], [CreatedDateTime], [DeletedByBrowserName], [DeletedByIp], [DeletedByUserId], [DeletedDateTime], [IsDeleted], [IsRead], [MessageBody], [ModifiedByBrowserName], [ModifiedByIp], [ModifiedByUserId], [ModifiedDateTime], [ParentId], [RecipientId], [SendDateTime], [SenderId], [SenderRecipientId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20);
+2022-03-04 12:12:21.010 -08:00 [INF] Executed DbCommand (234ms) [Parameters=[@p21='2c09cbf6-45fd-48d4-9e72-717105fd605a', @p22='PostmanRuntime/7.28.3' (Size = 1000), @p23='::1' (Size = 255), @p24='48075ea3-30ef-4e4d-5f72-08d9fe1256d9' (Nullable = true), @p25='2022-03-04T20:12:20.6282788+00:00' (Nullable = true), @p26=NULL (Size = 1000), @p27=NULL (Size = 255), @p28=NULL (DbType = Guid), @p29=NULL (DbType = DateTimeOffset), @p30='.jpg' (Nullable = false) (Size = 4000), @p31='image/jpeg' (Nullable = false) (Size = 4000), @p32='342022358148.jpg' (Nullable = false) (Size = 4000), @p33='E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\wwwroot\MessengerPrivateMessages\342022358148.jpg' (Nullable = false) (Size = 4000), @p34='Arshia-wallpaper510' (Nullable = false) (Size = 4000), @p35='342022349939.jpg' (Nullable = false) (Size = 4000), @p36='False', @p37=NULL (DbType = Guid), @p38='1c4da812-dc6c-4e99-9e21-16a052f491cf' (Nullable = true), @p39=NULL (Size = 1000), @p40=NULL (Size = 255), @p41=NULL (DbType = Guid), @p42=NULL (DbType = DateTimeOffset)], CommandType='"Text"', CommandTimeout='180']
+SET NOCOUNT ON;
+INSERT INTO [MessengerMessageFiles] ([Id], [CreatedByBrowserName], [CreatedByIp], [CreatedByUserId], [CreatedDateTime], [DeletedByBrowserName], [DeletedByIp], [DeletedByUserId], [DeletedDateTime], [FileExtension], [FileMime], [FileName], [FilePath], [FileRealName], [FileThumbNail], [IsDeleted], [MessengerGroupMessageId], [MessengerPrivateMessageId], [ModifiedByBrowserName], [ModifiedByIp], [ModifiedByUserId], [ModifiedDateTime])
+VALUES (@p21, @p22, @p23, @p24, @p25, @p26, @p27, @p28, @p29, @p30, @p31, @p32, @p33, @p34, @p35, @p36, @p37, @p38, @p39, @p40, @p41, @p42);
+2022-03-04 12:12:21.019 -08:00 [WRN] PortalCore Long Running Request: CreateMessengerPrivateMessageCommand (1570 milliseconds) "48075ea3-30ef-4e4d-5f72-08d9fe1256d9" {"RecipientId":"48075ea3-30ef-4e4d-5f72-08d9fe1256d8","ParentId":"f77733ef-afea-4251-a978-63e2dc483c90","MessageBody":"salam agha behrooz","File":{"ContentDisposition":"form-data; name=\"File\"; filename=\"Arshia-wallpaper510.jpg\"","ContentType":"image/jpeg","Headers":[{"Key":"Content-Disposition","Value":["form-data; name=\"File\"; filename=\"Arshia-wallpaper510.jpg\""],"$type":"KeyValuePair`2"},{"Key":"Content-Type","Value":["image/jpeg"],"$type":"KeyValuePair`2"}],"Length":1586648,"Name":"File","FileName":"Arshia-wallpaper510.jpg","$type":"FormFile"},"$type":"CreateMessengerPrivateMessageCommand"}
+2022-03-04 12:15:54.641 -08:00 [INF] Starting up
+2022-03-04 12:16:21.646 -08:00 [WRN] Entity 'MessengerGroupMessage' has a global query filter defined and is the required end of a relationship with the entity 'MessengerGroupMessageSeenMessage'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2022-03-04 12:16:21.693 -08:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2022-03-04 12:16:22.538 -08:00 [INF] Entity Framework Core 5.0.12 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: SensitiveDataLoggingEnabled MaxPoolSize=128 CommandTimeout=180 MigrationsAssembly=PortalCore.Persistence, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+2022-03-04 12:16:23.928 -08:00 [INF] Entity Framework Core 5.0.12 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: SensitiveDataLoggingEnabled MaxPoolSize=128 CommandTimeout=180 MigrationsAssembly=PortalCore.Persistence, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+2022-03-04 12:16:24.400 -08:00 [INF] Executed DbCommand (131ms) [Parameters=[], CommandType='"Text"', CommandTimeout='180']
+SELECT 1
+2022-03-04 12:16:24.515 -08:00 [INF] Executed DbCommand (81ms) [Parameters=[], CommandType='"Text"', CommandTimeout='180']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2022-03-04 12:16:24.524 -08:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='180']
+SELECT 1
+2022-03-04 12:16:24.529 -08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='180']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2022-03-04 12:16:24.572 -08:00 [INF] Executed DbCommand (30ms) [Parameters=[], CommandType='"Text"', CommandTimeout='180']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2022-03-04 12:16:24.643 -08:00 [INF] No migrations were applied. The database is already up to date.
+2022-03-04 12:16:24.720 -08:00 [INF] Entity Framework Core 5.0.12 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: SensitiveDataLoggingEnabled MaxPoolSize=128 CommandTimeout=180 MigrationsAssembly=PortalCore.Persistence, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+2022-03-04 12:16:26.026 -08:00 [INF] Executed DbCommand (304ms) [Parameters=[@__normalizedUserName_0='ADMIN' (Size = 256)], CommandType='"Text"', CommandTimeout='180']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedByBrowserName], [a].[CreatedByIp], [a].[CreatedByUserId], [a].[CreatedDateTime], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[IsActive], [a].[LastLoggedIn], [a].[LastName], [a].[LastVisitDateTime], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[MobileNumber], [a].[ModifiedByBrowserName], [a].[ModifiedByIp], [a].[ModifiedByUserId], [a].[ModifiedDateTime], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[ProfileImage], [a].[SecurityStamp], [a].[SerialNumber], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AppUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2022-03-04 12:16:26.827 -08:00 [INF] SeedDatabaseWithAdminUserAsync: adminUser already exists.
+2022-03-04 12:16:26.996 -08:00 [INF] Executed DbCommand (128ms) [Parameters=[], CommandType='"Text"', CommandTimeout='180']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AppRoles] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2022-03-04 12:16:40.337 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-04 12:16:40.337 -08:00 [INF] Hosting environment: Development
+2022-03-04 12:16:40.338 -08:00 [INF] Content root path: E:\Projects\Real Projects\NikData\PortalCore\src\WebApi
+2022-03-04 12:18:07.967 -08:00 [INF] Entity Framework Core 5.0.12 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: SensitiveDataLoggingEnabled MaxPoolSize=128 CommandTimeout=180 MigrationsAssembly=PortalCore.Persistence, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+2022-03-04 12:18:08.399 -08:00 [INF] Executed DbCommand (207ms) [Parameters=[@__get_Item_0='48075ea3-30ef-4e4d-5f72-08d9fe1256d9' (Nullable = true)], CommandType='"Text"', CommandTimeout='180']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedByBrowserName], [a].[CreatedByIp], [a].[CreatedByUserId], [a].[CreatedDateTime], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[IsActive], [a].[LastLoggedIn], [a].[LastName], [a].[LastVisitDateTime], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[MobileNumber], [a].[ModifiedByBrowserName], [a].[ModifiedByIp], [a].[ModifiedByUserId], [a].[ModifiedDateTime], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[ProfileImage], [a].[SecurityStamp], [a].[SerialNumber], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AppUsers] AS [a]
+WHERE [a].[Id] = @__get_Item_0
+2022-03-04 12:18:08.940 -08:00 [INF] Executed DbCommand (361ms) [Parameters=[@__accessTokenHash_0='sP2aexp5P8wcE66xKOQ4wOnxGDWJZJ3qstfDfryTylQ=' (Size = 4000), @__userId_1='48075ea3-30ef-4e4d-5f72-08d9fe1256d9'], CommandType='"Text"', CommandTimeout='180']
+SELECT TOP(1) [a].[Id], [a].[AccessTokenExpiresDateTime], [a].[AccessTokenHash], [a].[CreatedByBrowserName], [a].[CreatedByIp], [a].[CreatedByUserId], [a].[CreatedDateTime], [a].[ModifiedByBrowserName], [a].[ModifiedByIp], [a].[ModifiedByUserId], [a].[ModifiedDateTime], [a].[RefreshTokenExpiresDateTime], [a].[RefreshTokenIdHash], [a].[RefreshTokenIdHashSource], [a].[UserId]
+FROM [AppJwtUserTokens] AS [a]
+WHERE ([a].[AccessTokenHash] = @__accessTokenHash_0) AND ([a].[UserId] = @__userId_1)
+2022-03-04 12:18:10.544 -08:00 [INF] Executed DbCommand (470ms) [Parameters=[@p2='48075ea3-30ef-4e4d-5f72-08d9fe1256d9', @p3='562338d4-46ae-4a6e-8e56-5e0fe9403a43' (Size = 4000), @p0='2022-03-04T20:18:09.3475065+00:00' (Nullable = true), @p1='2022-03-04T20:18:09.7319607+00:00' (Nullable = true)], CommandType='"Text"', CommandTimeout='180']
+SET NOCOUNT ON;
+UPDATE [AppUsers] SET [LastLoggedIn] = @p0, [ModifiedDateTime] = @p1
+WHERE [Id] = @p2 AND [ConcurrencyStamp] = @p3;
+SELECT @@ROWCOUNT;
+2022-03-04 12:18:14.147 -08:00 [INF] PortalCore Request: LoginAccountCommand "48075ea3-30ef-4e4d-5f72-08d9fe1256d9" {"Username":"Behrooz","Password":"1234P@$$","$type":"LoginAccountCommand"}
+2022-03-04 12:18:14.682 -08:00 [INF] Executed DbCommand (368ms) [Parameters=[@__normalizedUserName_0='BEHROOZ' (Size = 256)], CommandType='"Text"', CommandTimeout='180']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedByBrowserName], [a].[CreatedByIp], [a].[CreatedByUserId], [a].[CreatedDateTime], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[IsActive], [a].[LastLoggedIn], [a].[LastName], [a].[LastVisitDateTime], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[MobileNumber], [a].[ModifiedByBrowserName], [a].[ModifiedByIp], [a].[ModifiedByUserId], [a].[ModifiedDateTime], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[ProfileImage], [a].[SecurityStamp], [a].[SerialNumber], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AppUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2022-03-04 12:18:15.697 -08:00 [INF] Executed DbCommand (322ms) [Parameters=[@__userId_0='48075ea3-30ef-4e4d-5f72-08d9fe1256d8'], CommandType='"Text"', CommandTimeout='180']
+SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[CreatedByBrowserName], [a].[CreatedByIp], [a].[CreatedByUserId], [a].[CreatedDateTime], [a].[Description], [a].[ModifiedByBrowserName], [a].[ModifiedByIp], [a].[ModifiedByUserId], [a].[ModifiedDateTime], [a].[Name], [a].[NormalizedName]
+FROM [AppRoles] AS [a]
+INNER JOIN [AppUserRoles] AS [a0] ON [a].[Id] = [a0].[RoleId]
+WHERE [a0].[UserId] = @__userId_0
+ORDER BY [a].[Name]
+2022-03-04 12:18:16.106 -08:00 [INF] Executed DbCommand (207ms) [Parameters=[@__role_Id_0='f87256d6-d3d2-4f26-09a3-08d9fe125635'], CommandType='"Text"', CommandTimeout='180']
+SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AppRoleClaims] AS [a]
+WHERE [a].[RoleId] = @__role_Id_0
+2022-03-04 12:18:17.414 -08:00 [INF] Executed DbCommand (205ms) [Parameters=[@__userId_0='48075ea3-30ef-4e4d-5f72-08d9fe1256d8'], CommandType='"Text"', CommandTimeout='180']
+SELECT [a].[Id], [a].[AccessTokenExpiresDateTime], [a].[AccessTokenHash], [a].[CreatedByBrowserName], [a].[CreatedByIp], [a].[CreatedByUserId], [a].[CreatedDateTime], [a].[ModifiedByBrowserName], [a].[ModifiedByIp], [a].[ModifiedByUserId], [a].[ModifiedDateTime], [a].[RefreshTokenExpiresDateTime], [a].[RefreshTokenIdHash], [a].[RefreshTokenIdHashSource], [a].[UserId]
+FROM [AppJwtUserTokens] AS [a]
+WHERE [a].[UserId] = @__userId_0
+2022-03-04 12:18:17.854 -08:00 [INF] Executed DbCommand (160ms) [Parameters=[@p0='d4603677-f4ae-4f89-a8af-08d9fe1a8f76'], CommandType='"Text"', CommandTimeout='180']
+SET NOCOUNT ON;
+DELETE FROM [AppJwtUserTokens]
+WHERE [Id] = @p0;
+SELECT @@ROWCOUNT;
+2022-03-04 12:18:17.929 -08:00 [INF] Executed DbCommand (55ms) [Parameters=[@p0='c95820ff-a5cf-4336-572a-08d9fe1c1e93', @p1='2022-03-05T04:18:17.1854912+00:00', @p2='WfjsMoxip7NXWciEp8oNEKWdqKkkqxjQKBcDxs67nMQ=' (Size = 4000), @p3='PostmanRuntime/7.28.3' (Size = 1000), @p4='::1' (Size = 255), @p5='48075ea3-30ef-4e4d-5f72-08d9fe1256d9' (Nullable = true), @p6='2022-03-04T20:18:17.5712059+00:00' (Nullable = true), @p7=NULL (Size = 1000), @p8=NULL (Size = 255), @p9=NULL (DbType = Guid), @p10=NULL (DbType = DateTimeOffset), @p11='2022-03-05T08:18:17.1854912+00:00', @p12='H21Jmv5RwKycAcTT2hGOmfHYN5wILEqy93bupdJQrmM=' (Nullable = false) (Size = 450), @p13=NULL (Size = 450), @p14='48075ea3-30ef-4e4d-5f72-08d9fe1256d8'], CommandType='"Text"', CommandTimeout='180']
+SET NOCOUNT ON;
+INSERT INTO [AppJwtUserTokens] ([Id], [AccessTokenExpiresDateTime], [AccessTokenHash], [CreatedByBrowserName], [CreatedByIp], [CreatedByUserId], [CreatedDateTime], [ModifiedByBrowserName], [ModifiedByIp], [ModifiedByUserId], [ModifiedDateTime], [RefreshTokenExpiresDateTime], [RefreshTokenIdHash], [RefreshTokenIdHashSource], [UserId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14);
+2022-03-04 12:18:18.049 -08:00 [WRN] PortalCore Long Running Request: LoginAccountCommand (3775 milliseconds) "48075ea3-30ef-4e4d-5f72-08d9fe1256d8" {"Username":"Behrooz","Password":"1234P@$$","$type":"LoginAccountCommand"}
+2022-03-04 12:19:42.887 -08:00 [INF] Entity Framework Core 5.0.12 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: SensitiveDataLoggingEnabled MaxPoolSize=128 CommandTimeout=180 MigrationsAssembly=PortalCore.Persistence, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+2022-03-04 12:19:42.899 -08:00 [INF] Executed DbCommand (7ms) [Parameters=[@__get_Item_0='48075ea3-30ef-4e4d-5f72-08d9fe1256d8' (Nullable = true)], CommandType='"Text"', CommandTimeout='180']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedByBrowserName], [a].[CreatedByIp], [a].[CreatedByUserId], [a].[CreatedDateTime], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[IsActive], [a].[LastLoggedIn], [a].[LastName], [a].[LastVisitDateTime], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[MobileNumber], [a].[ModifiedByBrowserName], [a].[ModifiedByIp], [a].[ModifiedByUserId], [a].[ModifiedDateTime], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[ProfileImage], [a].[SecurityStamp], [a].[SerialNumber], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AppUsers] AS [a]
+WHERE [a].[Id] = @__get_Item_0
+2022-03-04 12:19:42.958 -08:00 [INF] Executed DbCommand (50ms) [Parameters=[@__accessTokenHash_0='WfjsMoxip7NXWciEp8oNEKWdqKkkqxjQKBcDxs67nMQ=' (Size = 4000), @__userId_1='48075ea3-30ef-4e4d-5f72-08d9fe1256d8'], CommandType='"Text"', CommandTimeout='180']
+SELECT TOP(1) [a].[Id], [a].[AccessTokenExpiresDateTime], [a].[AccessTokenHash], [a].[CreatedByBrowserName], [a].[CreatedByIp], [a].[CreatedByUserId], [a].[CreatedDateTime], [a].[ModifiedByBrowserName], [a].[ModifiedByIp], [a].[ModifiedByUserId], [a].[ModifiedDateTime], [a].[RefreshTokenExpiresDateTime], [a].[RefreshTokenIdHash], [a].[RefreshTokenIdHashSource], [a].[UserId]
+FROM [AppJwtUserTokens] AS [a]
+WHERE ([a].[AccessTokenHash] = @__accessTokenHash_0) AND ([a].[UserId] = @__userId_1)
+2022-03-04 12:19:43.024 -08:00 [INF] Executed DbCommand (35ms) [Parameters=[@p2='48075ea3-30ef-4e4d-5f72-08d9fe1256d8', @p3='562338d4-46ae-4a6e-8e56-5e0fe9403a43' (Size = 4000), @p0='2022-03-04T20:19:42.9628138+00:00' (Nullable = true), @p1='2022-03-04T20:19:42.9784775+00:00' (Nullable = true)], CommandType='"Text"', CommandTimeout='180']
+SET NOCOUNT ON;
+UPDATE [AppUsers] SET [LastLoggedIn] = @p0, [ModifiedDateTime] = @p1
+WHERE [Id] = @p2 AND [ConcurrencyStamp] = @p3;
+SELECT @@ROWCOUNT;
+2022-03-04 12:19:43.383 -08:00 [INF] Executed DbCommand (101ms) [Parameters=[@__userId_0='48075ea3-30ef-4e4d-5f72-08d9fe1256d8'], CommandType='"Text"', CommandTimeout='180']
+SELECT [a0].[Name], [a].[UserId], [a].[RoleId], [a0].[Id], [a1].[ClaimType], [a1].[ClaimValue], [a1].[Id]
+FROM [AppUserRoles] AS [a]
+INNER JOIN [AppRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+LEFT JOIN [AppRoleClaims] AS [a1] ON [a0].[Id] = [a1].[RoleId]
+WHERE [a].[UserId] = @__userId_0
+ORDER BY [a].[UserId], [a].[RoleId], [a0].[Id], [a1].[Id]
+2022-03-04 12:19:43.695 -08:00 [INF] PortalCore Request: GetMessengerPrivateMessageBySenderRecipientIdQuery "48075ea3-30ef-4e4d-5f72-08d9fe1256d8" {"SenderRecipientId":"e451b60c-1afb-4e9c-b904-b25fd586b7e3","$type":"GetMessengerPrivateMessageBySenderRecipientIdQuery"}
+2022-03-04 12:20:23.718 -08:00 [INF] Executed DbCommand (1,669ms) [Parameters=[@__request_SenderRecipientId_0='e451b60c-1afb-4e9c-b904-b25fd586b7e3'], CommandType='"Text"', CommandTimeout='180']
+SELECT [m].[Id], [m].[CreatedByBrowserName], [m].[CreatedByIp], [m].[CreatedByUserId], [m].[CreatedDateTime], [m].[DeletedByBrowserName], [m].[DeletedByIp], [m].[DeletedByUserId], [m].[DeletedDateTime], [m].[IsDeleted], [m].[IsRead], [m].[MessageBody], [m].[ModifiedByBrowserName], [m].[ModifiedByIp], [m].[ModifiedByUserId], [m].[ModifiedDateTime], [m].[ParentId], [m].[RecipientId], [m].[SendDateTime], [m].[SenderId], [m].[SenderRecipientId], [t].[Id], [t].[CreatedByBrowserName], [t].[CreatedByIp], [t].[CreatedByUserId], [t].[CreatedDateTime], [t].[DeletedByBrowserName], [t].[DeletedByIp], [t].[DeletedByUserId], [t].[DeletedDateTime], [t].[IsDeleted], [t].[IsRead], [t].[MessageBody], [t].[ModifiedByBrowserName], [t].[ModifiedByIp], [t].[ModifiedByUserId], [t].[ModifiedDateTime], [t].[ParentId], [t].[RecipientId], [t].[SendDateTime], [t].[SenderId], [t].[SenderRecipientId], [t0].[Id], [t0].[CreatedByBrowserName], [t0].[CreatedByIp], [t0].[CreatedByUserId], [t0].[CreatedDateTime], [t0].[DeletedByBrowserName], [t0].[DeletedByIp], [t0].[DeletedByUserId], [t0].[DeletedDateTime], [t0].[FileExtension], [t0].[FileMime], [t0].[FileName], [t0].[FilePath], [t0].[FileRealName], [t0].[FileThumbNail], [t0].[IsDeleted], [t0].[MessengerGroupMessageId], [t0].[MessengerPrivateMessageId], [t0].[ModifiedByBrowserName], [t0].[ModifiedByIp], [t0].[ModifiedByUserId], [t0].[ModifiedDateTime]
+FROM [MessengerPrivateMessages] AS [m]
+LEFT JOIN (
+    SELECT [m0].[Id], [m0].[CreatedByBrowserName], [m0].[CreatedByIp], [m0].[CreatedByUserId], [m0].[CreatedDateTime], [m0].[DeletedByBrowserName], [m0].[DeletedByIp], [m0].[DeletedByUserId], [m0].[DeletedDateTime], [m0].[IsDeleted], [m0].[IsRead], [m0].[MessageBody], [m0].[ModifiedByBrowserName], [m0].[ModifiedByIp], [m0].[ModifiedByUserId], [m0].[ModifiedDateTime], [m0].[ParentId], [m0].[RecipientId], [m0].[SendDateTime], [m0].[SenderId], [m0].[SenderRecipientId]
+    FROM [MessengerPrivateMessages] AS [m0]
+    WHERE [m0].[IsDeleted] <> CAST(1 AS bit)
+) AS [t] ON [m].[ParentId] = [t].[Id]
+LEFT JOIN (
+    SELECT [m1].[Id], [m1].[CreatedByBrowserName], [m1].[CreatedByIp], [m1].[CreatedByUserId], [m1].[CreatedDateTime], [m1].[DeletedByBrowserName], [m1].[DeletedByIp], [m1].[DeletedByUserId], [m1].[DeletedDateTime], [m1].[FileExtension], [m1].[FileMime], [m1].[FileName], [m1].[FilePath], [m1].[FileRealName], [m1].[FileThumbNail], [m1].[IsDeleted], [m1].[MessengerGroupMessageId], [m1].[MessengerPrivateMessageId], [m1].[ModifiedByBrowserName], [m1].[ModifiedByIp], [m1].[ModifiedByUserId], [m1].[ModifiedDateTime]
+    FROM [MessengerMessageFiles] AS [m1]
+    WHERE [m1].[IsDeleted] <> CAST(1 AS bit)
+) AS [t0] ON [m].[Id] = [t0].[MessengerPrivateMessageId]
+WHERE ([m].[IsDeleted] <> CAST(1 AS bit)) AND ([m].[SenderRecipientId] = @__request_SenderRecipientId_0)
+ORDER BY [m].[Id], [t].[Id], [t0].[Id]
+2022-03-04 12:24:55.777 -08:00 [WRN] PortalCore Long Running Request: GetMessengerPrivateMessageBySenderRecipientIdQuery (296303 milliseconds) "48075ea3-30ef-4e4d-5f72-08d9fe1256d8" {"SenderRecipientId":"e451b60c-1afb-4e9c-b904-b25fd586b7e3","$type":"GetMessengerPrivateMessageBySenderRecipientIdQuery"}

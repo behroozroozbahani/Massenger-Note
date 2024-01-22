@@ -1,0 +1,20 @@
+<Project>
+  <!-- General -->
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <Features>strict</Features>
+  </PropertyGroup>
+
+  <!-- Build -->
+  <PropertyGroup>
+    <AnalysisLevel>latest</AnalysisLevel>
+    <AnalysisMode>AllEnabledByDefault</AnalysisMode>
+    <CodeAnalysisTreatWarningsAsErrors>false</CodeAnalysisTreatWarningsAsErrors>
+    <!--<TreatWarningsAsErrors>true</TreatWarningsAsErrors>-->
+    <!--<WarningsAsErrors>CS8600;CS8602;CS8603</WarningsAsErrors>-->
+    <!-- Use for before .NET5 -->
+    <!-- <EnableNETAnalyzers>true</EnableNETAnalyzers> -->
+    <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+  </PropertyGroup>
+</Project>
