@@ -1,0 +1,36 @@
+E:\Projects\Real Projects\NikData\PortalCore\src\Domain\bin\Debug\net5.0\PortalCore.Domain.deps.json
+E:\Projects\Real Projects\NikData\PortalCore\src\Domain\bin\Debug\net5.0\PortalCore.Domain.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\Domain\bin\Debug\net5.0\PortalCore.Domain.pdb
+E:\Projects\Real Projects\NikData\PortalCore\src\Domain\obj\Debug\net5.0\Domain.csproj.AssemblyReference.cache
+E:\Projects\Real Projects\NikData\PortalCore\src\Domain\obj\Debug\net5.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\Real Projects\NikData\PortalCore\src\Domain\obj\Debug\net5.0\Domain.AssemblyInfoInputs.cache
+E:\Projects\Real Projects\NikData\PortalCore\src\Domain\obj\Debug\net5.0\Domain.AssemblyInfo.cs
+E:\Projects\Real Projects\NikData\PortalCore\src\Domain\obj\Debug\net5.0\Domain.csproj.CoreCompileInputs.cache
+E:\Projects\Real Projects\NikData\PortalCore\src\Domain\obj\Debug\net5.0\PortalCore.Domain.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\Domain\obj\Debug\net5.0\refint\PortalCore.Domain.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\Domain\obj\Debug\net5.0\PortalCore.Domain.pdb
+E:\Projects\Real Projects\NikData\PortalCore\src\Domain\obj\Debug\net5.0\ref\PortalCore.Domain.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\Domain\bin\Debug\net5.0\PortalCore.Domain.deps.json
+D:\Projects\Real Projects\Web API\PortalCore\src\Domain\bin\Debug\net5.0\PortalCore.Domain.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\Domain\bin\Debug\net5.0\PortalCore.Domain.pdb
+D:\Projects\Real Projects\Web API\PortalCore\src\Domain\obj\Debug\net5.0\Domain.csproj.AssemblyReference.cache
+D:\Projects\Real Projects\Web API\PortalCore\src\Domain\obj\Debug\net5.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Real Projects\Web API\PortalCore\src\Domain\obj\Debug\net5.0\Domain.AssemblyInfoInputs.cache
+D:\Projects\Real Projects\Web API\PortalCore\src\Domain\obj\Debug\net5.0\Domain.AssemblyInfo.cs
+D:\Projects\Real Projects\Web API\PortalCore\src\Domain\obj\Debug\net5.0\Domain.csproj.CoreCompileInputs.cache
+D:\Projects\Real Projects\Web API\PortalCore\src\Domain\obj\Debug\net5.0\PortalCore.Domain.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\Domain\obj\Debug\net5.0\refint\PortalCore.Domain.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\Domain\obj\Debug\net5.0\PortalCore.Domain.pdb
+D:\Projects\Real Projects\Web API\PortalCore\src\Domain\obj\Debug\net5.0\ref\PortalCore.Domain.dll
+D:\Projects\Real Projects\Web API\Massenger_Note\src\Domain\bin\Debug\net5.0\PortalCore.Domain.deps.json
+D:\Projects\Real Projects\Web API\Massenger_Note\src\Domain\bin\Debug\net5.0\PortalCore.Domain.dll
+D:\Projects\Real Projects\Web API\Massenger_Note\src\Domain\bin\Debug\net5.0\PortalCore.Domain.pdb
+D:\Projects\Real Projects\Web API\Massenger_Note\src\Domain\obj\Debug\net5.0\Domain.csproj.AssemblyReference.cache
+D:\Projects\Real Projects\Web API\Massenger_Note\src\Domain\obj\Debug\net5.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Real Projects\Web API\Massenger_Note\src\Domain\obj\Debug\net5.0\Domain.AssemblyInfoInputs.cache
+D:\Projects\Real Projects\Web API\Massenger_Note\src\Domain\obj\Debug\net5.0\Domain.AssemblyInfo.cs
+D:\Projects\Real Projects\Web API\Massenger_Note\src\Domain\obj\Debug\net5.0\Domain.csproj.CoreCompileInputs.cache
+D:\Projects\Real Projects\Web API\Massenger_Note\src\Domain\obj\Debug\net5.0\PortalCore.Domain.dll
+D:\Projects\Real Projects\Web API\Massenger_Note\src\Domain\obj\Debug\net5.0\refint\PortalCore.Domain.dll
+D:\Projects\Real Projects\Web API\Massenger_Note\src\Domain\obj\Debug\net5.0\PortalCore.Domain.pdb
+D:\Projects\Real Projects\Web API\Massenger_Note\src\Domain\obj\Debug\net5.0\ref\PortalCore.Domain.dll

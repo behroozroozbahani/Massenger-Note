@@ -1,0 +1,301 @@
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\appsettings.Development.json
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\appsettings.json
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\PortalCore.WebApi.exe
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\PortalCore.WebApi.deps.json
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\PortalCore.WebApi.runtimeconfig.json
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\PortalCore.WebApi.runtimeconfig.dev.json
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\PortalCore.WebApi.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\PortalCore.WebApi.pdb
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\PortalCore.WebApi.xml
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\AutoMapper.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\Ben.Demystifier.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\CsvHelper.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\DNTCommon.Web.Core.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\DNTPersianUtils.Core.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\FluentValidation.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\FluentValidation.AspNetCore.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\Gridify.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\Gridify.EntityFramework.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\Hangfire.AspNetCore.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\Hangfire.Core.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\Hangfire.SqlServer.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\HtmlAgilityPack.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\Humanizer.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\IPAddressRange.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\MailKit.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\MediatR.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\Microsoft.AspNetCore.Authorization.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\Microsoft.AspNetCore.Metadata.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\Microsoft.Azure.Services.AppAuthentication.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.InMemory.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\Microsoft.Extensions.Http.Polly.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\Microsoft.OpenApi.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\Microsoft.SyndicationFeed.ReaderWriter.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\MimeKit.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\Newtonsoft.Json.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\Polly.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\Polly.Extensions.Http.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\Serilog.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\Serilog.AspNetCore.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\Serilog.Enrichers.Environment.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\Serilog.Enrichers.Process.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\Serilog.Enrichers.Thread.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\Serilog.Extensions.Hosting.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\Serilog.Extensions.Logging.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\Serilog.Formatting.Compact.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\Serilog.Settings.Configuration.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\Serilog.Sinks.Console.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\Serilog.Sinks.Debug.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\Serilog.Sinks.File.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\Serilog.Sinks.MSSqlServer.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\Serilog.Sinks.PeriodicBatching.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\SixLabors.ImageSharp.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\System.Data.SqlClient.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\System.Drawing.Common.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\System.Runtime.Caching.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\ca\Hangfire.Core.resources.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\de\Hangfire.Core.resources.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\es\Hangfire.Core.resources.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\fa\Hangfire.Core.resources.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\fr\Hangfire.Core.resources.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\nb\Hangfire.Core.resources.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\nl\Hangfire.Core.resources.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\pt-BR\Hangfire.Core.resources.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\pt-PT\Hangfire.Core.resources.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\pt\Hangfire.Core.resources.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\tr-TR\Hangfire.Core.resources.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\zh-TW\Hangfire.Core.resources.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\zh\Hangfire.Core.resources.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\runtimes\unix\lib\netstandard2.0\System.Data.SqlClient.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Data.SqlClient.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\PortalCore.Application.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\PortalCore.Common.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\PortalCore.Domain.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\PortalCore.Infrastructure.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\PortalCore.Persistence.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\PortalCore.Application.pdb
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\PortalCore.Application.xml
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\PortalCore.Common.pdb
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\PortalCore.Infrastructure.pdb
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\PortalCore.Persistence.pdb
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\PortalCore.Domain.pdb
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\obj\Debug\net5.0\WebApi.csproj.AssemblyReference.cache
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\obj\Debug\net5.0\WebApi.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\obj\Debug\net5.0\WebApi.AssemblyInfoInputs.cache
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\obj\Debug\net5.0\WebApi.AssemblyInfo.cs
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\obj\Debug\net5.0\WebApi.csproj.CoreCompileInputs.cache
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\obj\Debug\net5.0\PortalCore.WebApi.MvcApplicationPartsAssemblyInfo.cs
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\obj\Debug\net5.0\PortalCore.WebApi.MvcApplicationPartsAssemblyInfo.cache
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\obj\Debug\net5.0\staticwebassets\PortalCore.WebApi.StaticWebAssets.Manifest.cache
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\obj\Debug\net5.0\staticwebassets\PortalCore.WebApi.StaticWebAssets.xml
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\obj\Debug\net5.0\scopedcss\bundle\PortalCore.WebApi.styles.css
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\obj\Debug\net5.0\WebApi.RazorTargetAssemblyInfo.cache
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\obj\Debug\net5.0\WebApi.csproj.CopyComplete
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\obj\Debug\net5.0\PortalCore.WebApi.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\obj\Debug\net5.0\refint\PortalCore.WebApi.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\obj\Debug\net5.0\PortalCore.WebApi.xml
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\obj\Debug\net5.0\PortalCore.WebApi.pdb
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\obj\Debug\net5.0\WebApi.genruntimeconfig.cache
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\obj\Debug\net5.0\ref\PortalCore.WebApi.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\WebApi\bin\Debug\net5.0\logs\log20220304.json
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\appsettings.Development.json
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\appsettings.json
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\logs\log20220304.json
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\logs\log20220413.json
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\PortalCore.WebApi.exe
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\PortalCore.WebApi.deps.json
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\PortalCore.WebApi.runtimeconfig.json
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\PortalCore.WebApi.runtimeconfig.dev.json
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\PortalCore.WebApi.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\PortalCore.WebApi.pdb
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\PortalCore.WebApi.xml
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\AutoMapper.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\Ben.Demystifier.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\CsvHelper.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\DNTCommon.Web.Core.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\DNTPersianUtils.Core.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\FluentValidation.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\FluentValidation.AspNetCore.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\Gridify.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\Gridify.EntityFramework.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\Hangfire.AspNetCore.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\Hangfire.Core.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\Hangfire.SqlServer.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\HtmlAgilityPack.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\Humanizer.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\IPAddressRange.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\MailKit.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\MediatR.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\Microsoft.AspNetCore.Authorization.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\Microsoft.AspNetCore.Metadata.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\Microsoft.Azure.Services.AppAuthentication.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.InMemory.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\Microsoft.Extensions.Http.Polly.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\Microsoft.SyndicationFeed.ReaderWriter.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\MimeKit.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\Polly.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\Polly.Extensions.Http.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\Serilog.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\Serilog.AspNetCore.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\Serilog.Enrichers.Environment.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\Serilog.Enrichers.Process.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\Serilog.Enrichers.Thread.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\Serilog.Extensions.Hosting.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\Serilog.Extensions.Logging.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\Serilog.Formatting.Compact.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\Serilog.Settings.Configuration.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\Serilog.Sinks.Console.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\Serilog.Sinks.Debug.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\Serilog.Sinks.File.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\Serilog.Sinks.MSSqlServer.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\Serilog.Sinks.PeriodicBatching.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\SixLabors.ImageSharp.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\System.Data.SqlClient.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\System.Drawing.Common.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\System.Runtime.Caching.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\ca\Hangfire.Core.resources.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\de\Hangfire.Core.resources.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\es\Hangfire.Core.resources.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\fa\Hangfire.Core.resources.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\fr\Hangfire.Core.resources.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\nb\Hangfire.Core.resources.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\nl\Hangfire.Core.resources.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\pt-BR\Hangfire.Core.resources.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\pt-PT\Hangfire.Core.resources.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\pt\Hangfire.Core.resources.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\tr-TR\Hangfire.Core.resources.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\zh-TW\Hangfire.Core.resources.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\zh\Hangfire.Core.resources.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\runtimes\unix\lib\netstandard2.0\System.Data.SqlClient.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Data.SqlClient.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\PortalCore.Application.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\PortalCore.Common.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\PortalCore.Domain.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\PortalCore.Infrastructure.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\PortalCore.Persistence.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\PortalCore.Application.pdb
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\PortalCore.Application.xml
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\PortalCore.Common.pdb
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\PortalCore.Infrastructure.pdb
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\PortalCore.Persistence.pdb
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\bin\Debug\net5.0\PortalCore.Domain.pdb
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\obj\Debug\net5.0\WebApi.csproj.AssemblyReference.cache
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\obj\Debug\net5.0\WebApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\obj\Debug\net5.0\WebApi.AssemblyInfoInputs.cache
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\obj\Debug\net5.0\WebApi.AssemblyInfo.cs
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\obj\Debug\net5.0\WebApi.csproj.CoreCompileInputs.cache
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\obj\Debug\net5.0\PortalCore.WebApi.MvcApplicationPartsAssemblyInfo.cs
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\obj\Debug\net5.0\PortalCore.WebApi.MvcApplicationPartsAssemblyInfo.cache
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\obj\Debug\net5.0\staticwebassets\PortalCore.WebApi.StaticWebAssets.Manifest.cache
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\obj\Debug\net5.0\staticwebassets\PortalCore.WebApi.StaticWebAssets.xml
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\obj\Debug\net5.0\scopedcss\bundle\PortalCore.WebApi.styles.css
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\obj\Debug\net5.0\WebApi.RazorTargetAssemblyInfo.cache
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\obj\Debug\net5.0\WebApi.csproj.CopyComplete
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\obj\Debug\net5.0\PortalCore.WebApi.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\obj\Debug\net5.0\refint\PortalCore.WebApi.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\obj\Debug\net5.0\PortalCore.WebApi.xml
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\obj\Debug\net5.0\PortalCore.WebApi.pdb
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\obj\Debug\net5.0\WebApi.genruntimeconfig.cache
+D:\Projects\Real Projects\Web API\PortalCore\src\WebApi\obj\Debug\net5.0\ref\PortalCore.WebApi.dll

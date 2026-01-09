@@ -1,0 +1,46 @@
+E:\Projects\Real Projects\NikData\PortalCore\src\Persistence\bin\Debug\net5.0\PortalCore.Persistence.deps.json
+E:\Projects\Real Projects\NikData\PortalCore\src\Persistence\bin\Debug\net5.0\PortalCore.Persistence.runtimeconfig.json
+E:\Projects\Real Projects\NikData\PortalCore\src\Persistence\bin\Debug\net5.0\PortalCore.Persistence.runtimeconfig.dev.json
+E:\Projects\Real Projects\NikData\PortalCore\src\Persistence\bin\Debug\net5.0\PortalCore.Persistence.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\Persistence\bin\Debug\net5.0\PortalCore.Persistence.pdb
+E:\Projects\Real Projects\NikData\PortalCore\src\Persistence\bin\Debug\net5.0\PortalCore.Application.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\Persistence\bin\Debug\net5.0\PortalCore.Common.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\Persistence\bin\Debug\net5.0\PortalCore.Domain.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\Persistence\bin\Debug\net5.0\PortalCore.Application.pdb
+E:\Projects\Real Projects\NikData\PortalCore\src\Persistence\bin\Debug\net5.0\PortalCore.Application.xml
+E:\Projects\Real Projects\NikData\PortalCore\src\Persistence\bin\Debug\net5.0\PortalCore.Common.pdb
+E:\Projects\Real Projects\NikData\PortalCore\src\Persistence\bin\Debug\net5.0\PortalCore.Domain.pdb
+E:\Projects\Real Projects\NikData\PortalCore\src\Persistence\obj\Debug\net5.0\Persistence.csproj.AssemblyReference.cache
+E:\Projects\Real Projects\NikData\PortalCore\src\Persistence\obj\Debug\net5.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\Real Projects\NikData\PortalCore\src\Persistence\obj\Debug\net5.0\Persistence.AssemblyInfoInputs.cache
+E:\Projects\Real Projects\NikData\PortalCore\src\Persistence\obj\Debug\net5.0\Persistence.AssemblyInfo.cs
+E:\Projects\Real Projects\NikData\PortalCore\src\Persistence\obj\Debug\net5.0\Persistence.csproj.CoreCompileInputs.cache
+E:\Projects\Real Projects\NikData\PortalCore\src\Persistence\obj\Debug\net5.0\Persistence.csproj.CopyComplete
+E:\Projects\Real Projects\NikData\PortalCore\src\Persistence\obj\Debug\net5.0\PortalCore.Persistence.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\Persistence\obj\Debug\net5.0\refint\PortalCore.Persistence.dll
+E:\Projects\Real Projects\NikData\PortalCore\src\Persistence\obj\Debug\net5.0\PortalCore.Persistence.pdb
+E:\Projects\Real Projects\NikData\PortalCore\src\Persistence\obj\Debug\net5.0\Persistence.genruntimeconfig.cache
+E:\Projects\Real Projects\NikData\PortalCore\src\Persistence\obj\Debug\net5.0\ref\PortalCore.Persistence.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\Persistence\bin\Debug\net5.0\PortalCore.Persistence.deps.json
+D:\Projects\Real Projects\Web API\PortalCore\src\Persistence\bin\Debug\net5.0\PortalCore.Persistence.runtimeconfig.json
+D:\Projects\Real Projects\Web API\PortalCore\src\Persistence\bin\Debug\net5.0\PortalCore.Persistence.runtimeconfig.dev.json
+D:\Projects\Real Projects\Web API\PortalCore\src\Persistence\bin\Debug\net5.0\PortalCore.Persistence.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\Persistence\bin\Debug\net5.0\PortalCore.Persistence.pdb
+D:\Projects\Real Projects\Web API\PortalCore\src\Persistence\bin\Debug\net5.0\PortalCore.Application.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\Persistence\bin\Debug\net5.0\PortalCore.Common.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\Persistence\bin\Debug\net5.0\PortalCore.Domain.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\Persistence\bin\Debug\net5.0\PortalCore.Application.pdb
+D:\Projects\Real Projects\Web API\PortalCore\src\Persistence\bin\Debug\net5.0\PortalCore.Application.xml
+D:\Projects\Real Projects\Web API\PortalCore\src\Persistence\bin\Debug\net5.0\PortalCore.Common.pdb
+D:\Projects\Real Projects\Web API\PortalCore\src\Persistence\bin\Debug\net5.0\PortalCore.Domain.pdb
+D:\Projects\Real Projects\Web API\PortalCore\src\Persistence\obj\Debug\net5.0\Persistence.csproj.AssemblyReference.cache
+D:\Projects\Real Projects\Web API\PortalCore\src\Persistence\obj\Debug\net5.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Real Projects\Web API\PortalCore\src\Persistence\obj\Debug\net5.0\Persistence.AssemblyInfoInputs.cache
+D:\Projects\Real Projects\Web API\PortalCore\src\Persistence\obj\Debug\net5.0\Persistence.AssemblyInfo.cs
+D:\Projects\Real Projects\Web API\PortalCore\src\Persistence\obj\Debug\net5.0\Persistence.csproj.CoreCompileInputs.cache
+D:\Projects\Real Projects\Web API\PortalCore\src\Persistence\obj\Debug\net5.0\Persistence.csproj.CopyComplete
+D:\Projects\Real Projects\Web API\PortalCore\src\Persistence\obj\Debug\net5.0\PortalCore.Persistence.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\Persistence\obj\Debug\net5.0\refint\PortalCore.Persistence.dll
+D:\Projects\Real Projects\Web API\PortalCore\src\Persistence\obj\Debug\net5.0\PortalCore.Persistence.pdb
+D:\Projects\Real Projects\Web API\PortalCore\src\Persistence\obj\Debug\net5.0\Persistence.genruntimeconfig.cache
+D:\Projects\Real Projects\Web API\PortalCore\src\Persistence\obj\Debug\net5.0\ref\PortalCore.Persistence.dll
